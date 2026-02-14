@@ -5,22 +5,12 @@ import json
 import pathlib
 import re
 
+from lib.front_matter import parse_front_matter_yaml, split_front_matter
+
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 GUIDES_DIR = ROOT / "_guides"
 CATALOG_PATH = ROOT / "data" / "topic_catalog.json"
-
-
-def parse_front_matter(text: str) -> str:
-    match = re.match(r"^---\n(.*?)\n---\n", text, flags=re.DOTALL)
-    return match.group(1) if match else ""
-
-
-def get_key(front_matter: str, key: str) -> str:
-    m = re.search(rf"(?m)^{re.escape(key)}\s*:\s*(.+)$", front_matter)
-    if not m:
-        return ""
-    return m.group(1).strip().strip('"')
 
 
 def existing_guides():
@@ -28,9 +18,10 @@ def existing_guides():
     slugs = set()
     for path in sorted(GUIDES_DIR.glob("*.md")):
         raw = path.read_text(encoding="utf-8")
-        fm = parse_front_matter(raw)
-        title = get_key(fm, "title")
-        category = get_key(fm, "category")
+        fm_raw, _body, _full = split_front_matter(raw)
+        fm = parse_front_matter_yaml(fm_raw or "")
+        title = str(fm.get("title") or "")
+        category = str(fm.get("category") or "")
         slug = path.stem
         slugs.add(slug)
         results.append({"title": title, "slug": slug, "category": category})

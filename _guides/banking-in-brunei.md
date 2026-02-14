@@ -43,6 +43,8 @@ Banking in Brunei sits at the center of relocation setup. Rent payments, utility
 
 Many people delay banking decisions and then rush under pressure when major payments are due. A better approach is to set up banking early and align it with your monthly budget model.
 
+For the latest official notices and baseline regulator information, start with Brunei Darussalam Central Bank (BDCB). [Source: BDCB]
+
 A practical bank setup should help you do four things consistently:
 
 1. Receive salary or regular income.
@@ -232,6 +234,18 @@ A: Yes. Dedicated monthly allocations for healthcare and insurance reduce unplan
 - Scope: account setup flow and budgeting structure (general)
 - Source confidence: institutional/official sources listed in front matter
 - Note: document requirements and fees can vary by bank and change over time; confirm latest at point of application
+
+## Source Notes
+
+- Brunei Darussalam Central Bank (BDCB) homepage for regulator context and current official notices:  
+  https://www.bdcb.gov.bn  
+  Confidence: `official`
+- Ministry of Finance and Economy (MOFE) for government payment and consumer-facing finance references:  
+  https://www.mofe.gov.bn  
+  Confidence: `official`
+- Bank Islam Brunei Darussalam (BIBD) homepage for bank-specific product/process references (verify on each update cycle):  
+  https://www.bibd.com.bn  
+  Confidence: `institutional`
 
 ---
 *Last updated: 2026-02-14 | Have suggestions? Contact us.*

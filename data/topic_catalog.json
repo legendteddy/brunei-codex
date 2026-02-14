@@ -154,7 +154,7 @@
   {
     "slug": "best-restaurants-brunei",
     "title": "Best Restaurants in Brunei",
-    "category": "culture",
+    "category": "food",
     "intent": "medium",
     "ai_citation_potential": "medium",
     "seasonal_months": []
@@ -162,7 +162,7 @@
   {
     "slug": "weekend-activities-brunei",
     "title": "Weekend Activities in Brunei",
-    "category": "culture",
+    "category": "activities",
     "intent": "medium",
     "ai_citation_potential": "medium",
     "seasonal_months": []
@@ -219,6 +219,54 @@
     "slug": "emergency-contacts-services-brunei",
     "title": "Emergency Contacts and Services in Brunei",
     "category": "health",
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "seasonal_months": []
+  },
+  {
+    "slug": "where-to-play-chess-brunei",
+    "title": "Where to Play Chess in Brunei",
+    "category": "activities",
+    "intent": "high",
+    "ai_citation_potential": "medium",
+    "seasonal_months": []
+  },
+  {
+    "slug": "weekend-events-brunei",
+    "title": "Weekend Events in Brunei (Updated Weekly)",
+    "category": "events",
+    "intent": "high",
+    "ai_citation_potential": "medium",
+    "seasonal_months": []
+  },
+  {
+    "slug": "cinema-guide-brunei",
+    "title": "Cinema Guide in Brunei (Locations, Tickets, Formats)",
+    "category": "movies",
+    "intent": "high",
+    "ai_citation_potential": "medium",
+    "seasonal_months": []
+  },
+  {
+    "slug": "smartphone-buying-guide-brunei",
+    "title": "Smartphone Buying Guide in Brunei (Budget to Midrange)",
+    "category": "gadgets",
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "seasonal_months": []
+  },
+  {
+    "slug": "home-wifi-router-mesh-guide-brunei",
+    "title": "Home Wi‑Fi Router and Mesh Buying Guide in Brunei",
+    "category": "gadgets",
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "seasonal_months": []
+  },
+  {
+    "slug": "house-renovation-planning-brunei",
+    "title": "House Renovation in Brunei (Start-to-Finish Planning Guide)",
+    "category": "home-services",
     "intent": "high",
     "ai_citation_potential": "high",
     "seasonal_months": []

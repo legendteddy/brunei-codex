@@ -19,7 +19,8 @@ yarn-error.log*
 .env
 .env.*
 
-reports/
+reports/*
+!reports/kpi.json
 
 .DS_Store
 Thumbs.db

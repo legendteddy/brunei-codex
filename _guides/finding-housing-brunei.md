@@ -53,6 +53,8 @@ This approach helps you avoid hidden costs and avoid frequent moves after the fi
 
 ## Key Information
 
+Planning estimate: rent bands below are illustrative ranges for comparison. Treat them as a starting point and verify real listings and lease terms in writing before paying any deposit.
+
 | Housing Option | Typical Monthly Rent (BND) | Best For | Common Tradeoff |
 | --- | ---: | --- | --- |
 | Studio / small apartment | 450-850 | Singles, short commute needs | Less storage and shared facilities |
@@ -161,7 +163,7 @@ For a full budgeting framework, see [Cost of Living in Brunei]({{ '/guides/cost-
 
 ### Week 1: Search and shortlist
 
-Use a shortlist tracker with columns for rent, total occupancy cost, commute score, and lease clarity score. This stops “memory bias” when you compare multiple units in a short period.
+Use a shortlist tracker with columns for rent, total occupancy cost, commute score, and lease clarity score. This stops "memory bias" when you compare multiple units in a short period.
 
 ### Week 2: Viewings and verification
 
@@ -230,6 +232,20 @@ A: Keep signed lease copies, payment confirmations, inspection notes, and docume
 - Scope: rental search workflow, contract-risk checklist, and setup planning
 - Source confidence: general guidance + sources listed in front matter for institutional references
 - Note: lease clauses and market availability change; confirm terms in writing for each unit
+
+For municipal services and local government references that may affect your move-in planning, confirm the latest information through official channels. [Source: Bandar]
+
+## Source Notes
+
+- Labour Department (LBD) site for institutional references related to employment-linked housing documentation (confirm the latest requirements in writing):  
+  https://www.lbd.gov.bn  
+  Confidence: `official`
+- Bandar Seri Begawan Municipal Department for municipal services references that can affect move-in planning:  
+  https://www.bandar.gov.bn  
+  Confidence: `official`
+- MOFE homepage for general official references that can affect household setup costs:  
+  https://www.mofe.gov.bn  
+  Confidence: `official`
 
 ---
 *Last updated: 2026-02-14 | Have suggestions? Contact us.*

@@ -51,6 +51,24 @@ Guide contract validation:
 python scripts/validate_guides.py
 ```
 
+Tone lint (anti-template phrases):
+
+```bash
+python scripts/tone_lint.py
+```
+
+KPI snapshot (writes `reports/kpi.json`):
+
+```bash
+python scripts/generate_kpi.py
+```
+
+Note: scripts that parse guide front matter require PyYAML:
+
+```bash
+python -m pip install pyyaml
+```
+
 Jekyll build (requires Ruby + Bundler installed):
 
 ```bash

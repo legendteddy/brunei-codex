@@ -52,6 +52,8 @@ When these basics are prepared, healthcare decisions become faster and safer.
 
 ## Key Information
 
+Planning estimate: monthly reserve ranges below are budgeting guidance, not official fee schedules. Re-check actual charges and coverage for your provider type and household needs.
+
 | Planning Area | Recommended Baseline | Why It Helps |
 | --- | --- | --- |
 | Primary care access | Identify closest routine care option | Faster treatment for common issues |
@@ -237,6 +239,20 @@ A: Yes. Reliable travel routes to care points can significantly reduce delays du
 - Scope: readiness workflow and household planning framework
 - Source confidence: official sources listed in front matter
 - Note: clinic processes and contact details can change; confirm latest through official channels before urgent needs
+
+For official contact channels and the latest public information, use the MOH contact page and government portal. [Source: MOH Contact Page]
+
+## Source Notes
+
+- Ministry of Health (MOH) homepage for official public health information:  
+  https://www.moh.gov.bn  
+  Confidence: `official`
+- MOH contact page for official contact channels (verify on each update cycle):  
+  https://www.moh.gov.bn/SitePages/Contact.aspx  
+  Confidence: `official`
+- Brunei government portal for broader service directories and official references:  
+  https://www.gov.bn  
+  Confidence: `official`
 
 ---
 *Last updated: 2026-02-14 | Have suggestions? Contact us.*

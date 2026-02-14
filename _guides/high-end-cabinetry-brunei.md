@@ -9,6 +9,7 @@ category: home-services
 tags: [high-end cabinetry, kitchen renovation, custom cabinets, luxury interior]
 meta_description: "Everything you need to know about high-end cabinetry in Brunei. Updated 2026. Costs, process, tips, and recommendations."
 quick_answer: "For premium cabinetry in Brunei, buy by system quality, not by showroom look alone: board core, edge sealing, hardware specification, installation standard, and warranty terms are what protect long-term value. Use a structured quote comparison so you are comparing like-for-like scope and specs. Shortlist multiple vendors and choose the one with the clearest written specification, milestone plan, and after-sales process."
+disclosure: "Disclosure: This guide references Caramella Brunei as an example of publicly stated vendor policies. BruneiVerse and Caramella share ownership. Vendor sources are illustrative and not endorsements; compare multiple vendors before deciding."
 sources:
   - https://business.mofe.gov.bn/SitePages/BusinessSupportCentre.aspx
   - https://www.abci.gov.bn/SitePages/Registered%20Companies%20List.aspx

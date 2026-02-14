@@ -34,6 +34,10 @@ exclude:
   - AGENTS.md
   - Gemfile
   - Gemfile.lock
+  - OPERATIONS.md
+  - SOURCES.md
   - README.md
+  - data/
+  - reports/
   - scripts/
   - .github/

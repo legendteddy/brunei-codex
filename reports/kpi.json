@@ -1,0 +1,11 @@
+{
+  "compliance_pass_rate": 1.0,
+  "corrections_sla_adherence": null,
+  "internal_link_health": 1.0,
+  "last_generated_at": "2026-02-14T11:54:41.205308+00:00",
+  "needs_refresh_guides": 0,
+  "source_coverage_ratio": 1.0,
+  "stale_risk_guides": 0,
+  "total_guides": 6,
+  "verified_guides": 6
+}

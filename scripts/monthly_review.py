@@ -5,6 +5,8 @@ import json
 import pathlib
 import re
 
+from lib.front_matter import parse_front_matter_yaml, split_front_matter
+
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 GUIDES_DIR = ROOT / "_guides"
@@ -12,25 +14,13 @@ CATALOG_PATH = ROOT / "data" / "topic_catalog.json"
 REPORT_DIR = ROOT / "reports"
 
 
-def split_front_matter(text: str):
-    m = re.match(r"^---\n(.*?)\n---\n(.*)$", text, flags=re.DOTALL)
-    if not m:
-        return "", text
-    return m.group(1), m.group(2)
-
-
-def get_value(front_matter: str, key: str) -> str:
-    m = re.search(rf"(?m)^{re.escape(key)}\s*:\s*(.+)$", front_matter)
-    if not m:
-        return ""
-    return m.group(1).strip().strip('"')
-
-
-def parse_tags(front_matter: str):
-    m = re.search(r"(?m)^tags\s*:\s*\[(.*?)\]\s*$", front_matter)
-    if not m:
-        return []
-    return [t.strip() for t in m.group(1).split(",") if t.strip()]
+def parse_tags(front_matter: dict):
+    tags = front_matter.get("tags") or []
+    if isinstance(tags, list):
+        return [str(t).strip() for t in tags if str(t).strip()]
+    if isinstance(tags, str):
+        return [t.strip() for t in tags.split(",") if t.strip()]
+    return []
 
 
 def parse_date(value: str):
@@ -44,14 +34,15 @@ def load_guides():
     guides = []
     for p in sorted(GUIDES_DIR.glob("*.md")):
         raw = p.read_text(encoding="utf-8")
-        fm, _body = split_front_matter(raw)
+        fm_raw, _body, _full = split_front_matter(raw)
+        fm = parse_front_matter_yaml(fm_raw or "")
         guides.append(
             {
                 "path": p,
                 "slug": p.stem,
-                "title": get_value(fm, "title"),
-                "category": get_value(fm, "category"),
-                "last_updated": parse_date(get_value(fm, "last_updated")),
+                "title": str(fm.get("title") or ""),
+                "category": str(fm.get("category") or ""),
+                "last_updated": parse_date(str(fm.get("last_updated") or "")),
                 "tags": parse_tags(fm),
             }
         )

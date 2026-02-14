@@ -5,6 +5,8 @@ import pathlib
 import re
 import sys
 
+from lib.front_matter import parse_front_matter_yaml, split_front_matter
+
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 GUIDES_DIR = ROOT / "_guides"
@@ -25,20 +27,6 @@ REQUIRED_KEYS = [
 ]
 
 
-def split_front_matter(text: str):
-    m = re.match(r"^---\n(.*?)\n---\n(.*)$", text, flags=re.DOTALL)
-    if not m:
-        return "", text
-    return m.group(1), m.group(2)
-
-
-def get_value(front_matter: str, key: str) -> str:
-    m = re.search(rf"(?m)^{re.escape(key)}\s*:\s*(.+)$", front_matter)
-    if not m:
-        return ""
-    return m.group(1).strip().strip('"')
-
-
 def parse_date(raw: str):
     try:
         return dt.datetime.strptime(raw, "%Y-%m-%d").date()
@@ -50,7 +38,8 @@ def collect_guides():
     guides = []
     for path in sorted(GUIDES_DIR.glob("*.md")):
         raw = path.read_text(encoding="utf-8")
-        fm, body = split_front_matter(raw)
+        fm_raw, body, _full = split_front_matter(raw)
+        fm = parse_front_matter_yaml(fm_raw or "")
         guides.append(
             {
                 "path": path,
@@ -87,14 +76,14 @@ def run_audit():
     for g in guides:
         fm = g["front_matter"]
         for key in REQUIRED_KEYS:
-            if not re.search(rf"(?m)^{re.escape(key)}\s*:", fm):
+            if key not in fm:
                 missing_key_errors.append(f"{g['path']}: missing `{key}`")
 
         for target in internal_link_targets(g["body"]):
             if target not in slugs:
                 broken_internal_links.append(f"{g['path']}: broken internal link `/guides/{target}/`")
 
-        last_updated_raw = get_value(fm, "last_updated")
+        last_updated_raw = str(fm.get("last_updated") or "")
         last_updated = parse_date(last_updated_raw)
         if last_updated is None:
             stale_guides.append(f"{g['path']}: invalid `last_updated` date")

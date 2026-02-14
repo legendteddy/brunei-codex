@@ -52,6 +52,8 @@ Transport is not only about movement. It is a major contributor to financial sta
 
 ## Key Information
 
+Planning estimate: cost ranges below are illustrative budgeting bands. Verify actual costs (fuel, servicing, insurance, fares) for your route pattern and vehicle choices.
+
 | Mobility Model | Typical Monthly Cost (BND) | Best Use Case | Tradeoff |
 | --- | ---: | --- | --- |
 | Car-first model | 250-650 | Family routines, fixed schedules | Higher ownership and maintenance cost |
@@ -229,6 +231,20 @@ A: Yes. Reliable route and backup planning reduces late arrivals and urgent trav
 - Scope: budgeting approach and route-planning framework
 - Source confidence: official sources listed in front matter for licensing/transport institutions
 - Note: provider availability and pricing can change; re-check before committing to a long-term model
+
+For licensing and official transport guidance, confirm the latest details directly with the responsible authorities. [Source: JPD]
+
+## Source Notes
+
+- JPD (Road Transport Department) official site for licensing/driver/admin references:  
+  https://www.jpd.gov.bn  
+  Confidence: `official`
+- Land Transport Department site for transport-related public information (verify on each update cycle):  
+  https://www.land-transport.gov.bn  
+  Confidence: `official`
+- Brunei government portal for public service directories and official references:  
+  https://www.gov.bn  
+  Confidence: `official`
 
 ---
 *Last updated: 2026-02-14 | Have suggestions? Contact us.*

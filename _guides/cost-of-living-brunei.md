@@ -35,7 +35,7 @@ faq:
 
 # Cost of Living in Brunei - Complete Guide
 
-**Quick Answer:** Most newcomers can build a realistic Brunei budget by starting with rent and transport first, then adding utilities, groceries, healthcare, and school costs. A single adult often lands in the BND 1,100 to BND 1,900 range, while a family budget can sit between BND 2,300 and BND 4,200 depending on housing choice and lifestyle. The fastest way to avoid overspending is to set fixed limits per category and review your first 90 days of actual spending.
+**Quick Answer:** Planning estimate: most newcomers can build a realistic Brunei budget by starting with rent and transport first, then adding utilities, groceries, healthcare, and school costs. A single adult often lands in the BND 1,100 to BND 1,900 range, while a family budget can sit between BND 2,300 and BND 4,200 depending on housing choice and lifestyle. The fastest way to avoid overspending is to set fixed limits per category and review your first 90 days of actual spending.
 
 ## Overview
 
@@ -46,6 +46,8 @@ For newcomers, the first mistake is copying a generic budget from another countr
 Use this as a starting budget, then adjust it after your first one to three months based on what you actually spend.
 
 ## Key Information
+
+Planning estimate: the ranges below are illustrative budgeting bands, not official price lists. Re-check real rent quotes, bill amounts, and fees before committing.
 
 | Household Type | Lean Budget (BND/month) | Balanced Budget (BND/month) | Notes |
 | --- | ---: | ---: | --- |
@@ -143,6 +145,8 @@ Even with access to structured care pathways, keep a monthly reserve for medicin
 
 For healthcare planning details, read [Healthcare in Brunei]({{ '/guides/healthcare-in-brunei/' | relative_url }}).
 
+If you are paying any government fees online as part of setup, confirm the latest process directly through the official portal. [Source: TAFIS]
+
 ## Tips and Recommendations
 
 - Build budgets from fixed costs down, not discretionary spending up.
@@ -187,6 +191,18 @@ A: Yes. Families should separately track schooling, healthcare, transport coordi
 - Scope: budgeting method and decision framework
 - Source confidence: official sources listed in front matter
 - Note: cost ranges are planning guidance; re-check quotes and bills locally before committing
+
+## Source Notes
+
+- MOFE homepage for official references that affect household budgeting (fees, policy updates, public information):  
+  https://www.mofe.gov.bn  
+  Confidence: `official`
+- TAFIS portal for official online fee/payment flows when applicable to your setup tasks:  
+  https://www.tafis.gov.bn  
+  Confidence: `official`
+- Bandar Seri Begawan Municipal Department site for municipal services references that can affect household setup planning:  
+  https://www.bandar.gov.bn  
+  Confidence: `official`
 
 ---
 *Last updated: 2026-02-14 | Have suggestions? Contact us.*

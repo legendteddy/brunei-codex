@@ -3,6 +3,8 @@ import pathlib
 import re
 import sys
 
+from lib.front_matter import parse_front_matter_yaml, split_front_matter
+
 
 REQUIRED_FRONT_MATTER_KEYS = [
     "title",
@@ -24,12 +26,40 @@ MIN_FAQ = 5
 MAX_FAQ = 10
 MIN_INTERNAL_LINKS = 3
 
+ALLOWED_CONTENT_STATES = {"draft", "verified", "stale-risk", "needs-refresh", "archived"}
+ALLOWED_CATEGORIES = {
+    "living",
+    "working",
+    "business",
+    "education",
+    "health",
+    "culture",
+    "activities",
+    "events",
+    "food",
+    "movies",
+    "home-services",
+    "gadgets",
+}
 
-def split_front_matter(text: str):
-    match = re.match(r"^---\n(.*?)\n---\n(.*)$", text, flags=re.DOTALL)
-    if not match:
-        return None, text
-    return match.group(1), match.group(2)
+def _has_source_mapping(body: str) -> bool:
+    if not re.search(r"(?mi)^##\s+Source Notes\s*$", body):
+        return False
+    if not re.search(r"\[Source:\s*[^]]+\]", body):
+        return False
+    return True
+
+
+def _requires_disclosure(front_matter: dict, body: str) -> bool:
+    sources = front_matter.get("sources") or []
+    source_text = ""
+    if isinstance(sources, list):
+        source_text = "\n".join(str(s) for s in sources if s)
+    else:
+        source_text = str(sources)
+
+    combined = f"{source_text}\n{body}".lower()
+    return "caramellabrunei.com" in combined or "affiliate" in combined or "sponsored" in combined
 
 
 def count_words(text: str) -> int:
@@ -47,20 +77,40 @@ def has_markdown_table(text: str) -> bool:
 def validate_guide(path: pathlib.Path):
     errors = []
     raw = path.read_text(encoding="utf-8")
-    front_matter, body = split_front_matter(raw)
+    front_matter_raw, body, _full = split_front_matter(raw)
 
-    if front_matter is None:
+    if front_matter_raw is None:
         return [f"{path}: missing valid YAML front matter block."]
 
+    front_matter = parse_front_matter_yaml(front_matter_raw)
+
     for key in REQUIRED_FRONT_MATTER_KEYS:
-        if not re.search(rf"(?m)^{re.escape(key)}\s*:", front_matter):
+        if key not in front_matter:
             errors.append(f"{path}: missing front matter key `{key}`.")
+
+    content_state = str(front_matter.get("content_state") or "").strip()
+    if content_state and content_state not in ALLOWED_CONTENT_STATES:
+        errors.append(
+            f"{path}: invalid `content_state` value `{content_state}` (allowed: {', '.join(sorted(ALLOWED_CONTENT_STATES))})."
+        )
+
+    category = str(front_matter.get("category") or "").strip()
+    if category and category not in ALLOWED_CATEGORIES:
+        errors.append(
+            f"{path}: invalid `category` value `{category}` (allowed: {', '.join(sorted(ALLOWED_CATEGORIES))})."
+        )
+
+    if _requires_disclosure(front_matter, body) and "disclosure" not in front_matter:
+        errors.append(f"{path}: missing `disclosure` front matter (sponsored/affiliate/vendor sources detected).")
 
     if not re.search(r"(?mi)^\*\*Quick Answer:\*\*", body):
         errors.append(f"{path}: missing `**Quick Answer:**` section.")
 
     if not has_markdown_table(body):
         errors.append(f"{path}: missing markdown table.")
+
+    if not _has_source_mapping(body):
+        errors.append(f"{path}: missing source mapping (`## Source Notes` and at least one inline `[Source: ...]`).")
 
     faq_count = len(re.findall(r"(?mi)^\*\*Q:\s", body))
     if faq_count < MIN_FAQ or faq_count > MAX_FAQ:
