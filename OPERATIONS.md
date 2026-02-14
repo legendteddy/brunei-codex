@@ -56,35 +56,46 @@ What it includes:
 
 ## Quality and Build Checks
 
-Guide contract validation:
+Run this exact housekeeping gate sequence before release:
 
 ```bash
 python scripts/validate_guides.py
-```
-
-Tone lint (anti-template phrases):
-
-```bash
+python scripts/enforce_publish_policy.py
+python scripts/validate_links.py
 python scripts/tone_lint.py
+python scripts/generate_kpi.py
+bundle exec jekyll build --trace
+python scripts/weekly_maintenance.py --write-report
 ```
 
-KPI snapshot (writes `reports/kpi.json`):
+Gate meanings:
+
+- `validate_guides.py`: contract fields, FAQ count, table, source notes, word count, internal links
+- `enforce_publish_policy.py`: blocks any non-verified guide from being published
+- `validate_links.py`: slug-level `/guides/<slug>/` link integrity across content and key pages
+- `tone_lint.py`: anti-template voice checks
+- `generate_kpi.py`: refreshes `reports/kpi.json`
+- `jekyll build`: structural/site-generation safety
+- `weekly_maintenance.py`: metadata + internal link + stale-age audit
+
+Optional cleanup utility:
 
 ```bash
-python scripts/generate_kpi.py
+python scripts/check_orphans.py
 ```
 
-Note: scripts that parse guide front matter require PyYAML:
+## Dependencies
+
+Python front-matter parsers require PyYAML:
 
 ```bash
 python -m pip install pyyaml
 ```
 
-Jekyll build (requires Ruby + Bundler installed):
+Jekyll build requires Ruby + Bundler:
 
 ```bash
 bundle install
 bundle exec jekyll build --trace
 bundle exec jekyll serve
 ```
-
