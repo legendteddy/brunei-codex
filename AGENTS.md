@@ -9,7 +9,7 @@
 - Business model: Ad-supported now, transparent sponsored listings later
 
 ## 2) Core Outcome
-Build BruneiVerse into a trusted, neutral, high-coverage source for "Brunei + [practical query]" across living, working, business, education, health, and culture topics.
+Build BruneiVerse into a trusted, neutral, high-coverage source for "Brunei + [practical query]" across living, working, business, education, health, culture, activities/community, and home services topics.
 
 ## 3) Editorial Principles
 - Prioritize practical, factual, action-oriented guidance.
@@ -61,6 +61,12 @@ Citation rule inside body:
 - Add inline citations in relevant sentences, for example: `... [Source: MOH Contact Page]`
 - Keep a `Source Notes` subsection that maps key claims to source links.
 
+Guide archetypes to support broader scope:
+- Process guides (for example permits, setup, registration)
+- Comparison guides (for example provider/option tables)
+- Activity guides (for example where to play chess in Brunei)
+- Home-service guides (for example house renovation planning in Brunei)
+
 ### 4.3 Quality Gate
 Before publish, verify:
 - Answer-first structure is present
@@ -92,6 +98,7 @@ Before publish, verify:
 
 ### Priority (high intent)
 - Housing, rent, neighborhoods
+- House renovation (planning, permits, contractor selection, budgeting, timelines)
 - Cost of living and utilities
 - Banking and account setup
 - Healthcare and hospitals
@@ -99,12 +106,24 @@ Before publish, verify:
 - Work permits, salaries, labor rights
 - Business registration, licenses, tax obligations
 - Mobile/internet setup, groceries, schools
+- Daily activities and community participation (for example chess clubs, sports groups, hobby communities)
 
 ### Secondary (authority depth)
 - Weather and climate patterns
 - Safety and emergency services
 - Geography/history background (factual only)
 - Language basics
+
+### New Cluster Targets (Broad Scope)
+- Activities and community:
+  - Where to play chess in Brunei
+  - Chess clubs, tournaments, and beginner meetups
+  - Weekend hobby groups and social activities
+- Home and renovation:
+  - House renovation in Brunei (start-to-finish guide)
+  - Renovation cost planning by scope
+  - Contractor selection checklist and risk controls
+  - Permit and compliance overview (where applicable)
 
 ## 7) Linking and SEO Rules
 - URL pattern: `/guides/[topic-slug-in-brunei]/`
@@ -139,6 +158,7 @@ Use sources in this order of preference:
 2. Metadata audit (`meta_description`, `last_updated`).
 3. Regenerate/verify sitemap.
 4. Review broken external links.
+5. Re-verify activity schedules and renovation process references on time-sensitive pages.
 
 ### Monthly (1-2 hours)
 1. Review coverage and freshness.
