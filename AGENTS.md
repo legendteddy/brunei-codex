@@ -18,6 +18,13 @@ Build BruneiVerse into a trusted, neutral, high-coverage source for "Brunei + [p
 - Cite official sources for policies, regulations, or institutional claims.
 - Prefer comprehensive depth over thin volume.
 
+## 3.0) Voice and Tone (Non-Robotic)
+- Write like a helpful local guide, not a policy document.
+- Prefer short sentences, concrete examples, and plain language.
+- Avoid sales language (for example "convert", "highest-converting", "best deal") unless you define criteria and label it as editorial guidance.
+- Avoid absolute claims; use measurable criteria or cite sources.
+- In user-facing pages, minimize repetitive "must/should" phrasing; reserve strict language for internal policy sections.
+
 ## 3.1) Evidence Standard (No Source, No Claim)
 - Every factual claim must have a source.
 - Prefer official primary sources first (government ministry/department/regulator).
@@ -233,6 +240,7 @@ Rules:
 - Food and dining coverage (restaurants, cafes, local specialties, budget dining guides)
 - Movies and entertainment coverage (cinemas, screenings, family-friendly options, release guides)
 - Gadget reviews and buyer guides (phones, laptops, accessories, smart home devices in Brunei)
+- Consumer buying guides that help readers make purchase decisions locally (ethical, source-backed, non-misleading)
 
 ### Secondary (authority depth)
 - Weather and climate patterns
@@ -264,11 +272,26 @@ Rules:
   - Renovation cost planning by scope
   - Contractor selection checklist and risk controls
   - Permit and compliance overview (where applicable)
+  - Kitchen cabinet cost guide in Brunei
+  - Custom vs modular cabinets in Brunei
+  - Cabinet materials guide (durability, maintenance, cost bands)
+  - How to compare cabinet maker quotations
 - Gadgets and tech:
   - Best budget phones in Brunei
   - Laptop buying guide in Brunei
   - Home Wi-Fi router and mesh buyer guide
   - Smart home starter setup in Brunei
+
+### Consumer Demand Engine (Ethical)
+- Funnel model for market-driving content:
+  1. Discovery: broad practical guides (`how to choose`, `what to budget`)
+  2. Consideration: comparisons (`options`, `price bands`, `tradeoffs`)
+  3. Decision: action tools (`checklists`, `quote templates`, `vendor questions`)
+  4. Conversion: internal links to relevant directory pages and service guides
+- Optimization goals:
+  - Increase high-intent page coverage by cluster
+  - Improve internal pathways from informational pages to action pages
+  - Maintain trust by enforcing no-misleading/no-defamation/no-hidden-promotion rules
 
 ## 7) Linking and SEO Rules
 - URL pattern: `/guides/[topic-slug-in-brunei]/`

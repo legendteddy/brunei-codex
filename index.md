@@ -5,11 +5,12 @@ meta_description: Practical, neutral Brunei guides covering cost of living, hous
 
 <section class="shell hero">
   <h1>BruneiVerse</h1>
-  <p>Clear, practical guides for people moving to Brunei or setting up daily life here. Every guide is updated, source-linked, and written in a neutral tone.</p>
+  <p>Practical, source-linked guides for life in Brunei. If you are moving, setting up a home, renovating, or just planning your weekend, start here.</p>
 </section>
 
 <section class="shell">
   <h2>Start Here</h2>
+  <p>Five guides that answer the questions most people ask in their first month.</p>
   <div class="cards">
     <article class="card">
       <h3><a href="{{ '/guides/cost-of-living-brunei/' | relative_url }}">Cost of Living in Brunei</a></h3>

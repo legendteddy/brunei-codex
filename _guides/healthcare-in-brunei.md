@@ -2,6 +2,9 @@
 title: "Healthcare in Brunei - Complete Guide 2026"
 date: 2026-02-14
 last_updated: 2026-02-14
+verified_on: 2026-02-14
+owner: swarm-content
+content_state: verified
 category: health
 tags: [healthcare, clinics, hospitals, medical setup]
 meta_description: "Everything you need to know about healthcare in Brunei. Updated 2026. Costs, process, tips, and recommendations."

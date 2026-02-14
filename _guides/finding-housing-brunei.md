@@ -2,6 +2,9 @@
 title: "Finding Housing in Brunei - Complete Guide 2026"
 date: 2026-02-14
 last_updated: 2026-02-14
+verified_on: 2026-02-14
+owner: swarm-content
+content_state: verified
 category: living
 tags: [housing, renting, apartments, neighborhoods]
 meta_description: "Everything you need to know about finding housing in Brunei. Updated 2026. Costs, process, tips, and recommendations."

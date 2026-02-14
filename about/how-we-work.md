@@ -4,7 +4,7 @@ permalink: /about/how-we-work/
 meta_description: How BruneiVerse researches, updates, and discloses editorial and commercial decisions.
 ---
 
-BruneiVerse publishes practical guides using a structured process focused on trust and clarity.
+BruneiVerse publishes practical guides with a simple goal: be clear, be current, and be fair.
 
 ## Editorial Workflow
 
@@ -26,4 +26,4 @@ When a guide compares options, we focus on factual criteria such as process clar
 
 ## Corrections
 
-If a guide becomes outdated or incorrect, we update it and refresh the `last updated` date.
+If a guide becomes outdated or incorrect, we update it and refresh the `last updated` date. When something is time-sensitive (prices, schedules, contact details), we re-check it before publishing.

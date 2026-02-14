@@ -4,7 +4,7 @@ permalink: /about/
 meta_description: Learn what BruneiVerse publishes, who it serves, and how editorial decisions are made.
 ---
 
-BruneiVerse is a practical guide site focused on everyday life in Brunei for newcomers, expats, and local readers who want direct answers.
+BruneiVerse is a practical guide site for everyday life in Brunei. It is written for newcomers, expats, and local readers who just want a clear answer and a straightforward next step.
 
 ## Editorial Principles
 
@@ -23,4 +23,4 @@ BruneiVerse is a practical guide site focused on everyday life in Brunei for new
 
 ## Updates
 
-Each guide includes a publication date and `last updated` date so readers can verify freshness.
+Each guide includes a publication date and a `last updated` date so you can see how current it is. If something changes, we update the guide and refresh the dates.
