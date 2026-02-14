@@ -204,11 +204,22 @@ Freshness requirement:
 
 ## 8) Operating Cadence
 
+## 8.1) Automatic Audit (Required)
+- Agents must automatically run an audit after any content create/update cycle.
+- Minimum audit scope:
+  1. Factual claim/source mapping completeness
+  2. Freshness checks (`last_updated`, `verified_on`, time-sensitive claim validity)
+  3. SEO checks (title, meta, headings, FAQ, internal links, table presence)
+  4. Link integrity (internal and external references)
+  5. Obsolete-information detection/removal
+- If audit fails, agent must fix issues immediately before publishing.
+
 ### Daily (15-30 min)
 1. Check practical high-intent query opportunities.
 2. Identify content gaps in current coverage.
 3. Produce one recommendation and outline.
 4. Review urgent freshness flags (events/prices/announcements changed in last 24 hours).
+5. Run mini-audit on recently changed guides.
 
 ### Content days (2-3x/week)
 1. Draft one comprehensive guide.
@@ -218,6 +229,7 @@ Freshness requirement:
 5. Re-check all time-sensitive claims on publish day.
 6. Run automatic live lookup immediately before final publish.
 7. Run automatic SEO improvement pass before publish.
+8. Run full post-draft audit and resolve all findings before publish.
 
 ### Weekly (30-45 min)
 1. Internal link audit (no broken internal paths).
@@ -229,6 +241,7 @@ Freshness requirement:
 7. Re-verify gadget prices/availability and note date-checked context.
 8. Remove or rewrite obsolete claims discovered during re-verification.
 9. Run SEO improvement sweep on top-priority guides (titles/meta/internal links/FAQ clarity).
+10. Run full-site audit and produce a findings list with fixes.
 
 ### Monthly (1-2 hours)
 1. Review coverage and freshness.
@@ -236,6 +249,7 @@ Freshness requirement:
 3. Prioritize next topic cluster.
 4. Refresh seasonal topics when relevant.
 5. Run an obsolete-content sweep and clean stale claims site-wide.
+6. Run deep audit across all clusters and prioritize remediation backlog.
 
 ## 9) Agent Output Format (Daily Recommendation)
 
