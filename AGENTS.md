@@ -18,6 +18,13 @@ Build BruneiVerse into a trusted, neutral, high-coverage source for "Brunei + [p
 - Cite official sources for policies, regulations, or institutional claims.
 - Prefer comprehensive depth over thin volume.
 
+## 3.1) Evidence Standard (No Source, No Claim)
+- Every factual claim must have a source.
+- Prefer official primary sources first (government ministry/department/regulator).
+- If no official source exists, use a reputable primary source and label it clearly.
+- If a statement is advice, judgment, or estimate, label it as `Editorial guidance` or `Planning estimate` (not fact).
+- If a claim cannot be sourced, remove it.
+
 ## 4) Required Guide Contract
 
 ### 4.1 Front Matter
@@ -50,6 +57,10 @@ Required sections:
 - Related resources
 - Last updated footer line
 
+Citation rule inside body:
+- Add inline citations in relevant sentences, for example: `... [Source: MOH Contact Page]`
+- Keep a `Source Notes` subsection that maps key claims to source links.
+
 ### 4.3 Quality Gate
 Before publish, verify:
 - Answer-first structure is present
@@ -61,6 +72,7 @@ Before publish, verify:
 - Neutral and non-promotional framing
 - Official sources listed for factual claims
 - 1000-2000 words (target range)
+- Every factual claim has an inline citation or explicit source mapping
 
 ## 5) Safety and Red Lines
 
@@ -101,6 +113,13 @@ Before publish, verify:
 - Every guide links to at least 3 related internal guides
 - Use descriptive anchor text
 - Keep `last_updated` current when edits are made
+
+## 7.1) Source Hierarchy
+Use sources in this order of preference:
+1. Official Brunei government pages (`gov.bn`, ministry/department/regulator domains)
+2. Official regulator or statutory body pages
+3. Primary institutional pages (bank/provider/operator official docs)
+4. Reputable secondary sources only when primary is unavailable (must be labeled)
 
 ## 8) Operating Cadence
 
@@ -169,6 +188,7 @@ Use this exact format:
 - Freshness (no guide older than 6 months without review)
 - Topic coverage breadth across core life categories
 - Observable citation signals and organic visibility growth
+- Source coverage ratio: 100% of factual claims source-mapped
 
 ## 12) Current Status Checklist
 - [x] Repository exists (`legendteddy/bruneiverse`)
