@@ -146,10 +146,6 @@ Editorial guidance: keep one running log of assumptions, updates, and confirmati
 Editorial guidance: keep one running log of assumptions, updates, and confirmations so your next cycle is faster and less error-prone.
 Editorial guidance: keep one running log of assumptions, updates, and confirmations so your next cycle is faster and less error-prone.
 
----
-*Last updated: 2026-02-14 | Verified on: 2026-02-14.*
-
-
 ## Weekly Grocery System for Cost Control
 
 Use a fixed weekly workflow: inventory check, meal plan, category budget, and shopping list lock before entering the store. This sequence reduces impulse buying and protects nutrition quality under budget limits.
@@ -158,6 +154,10 @@ Use a fixed weekly workflow: inventory check, meal plan, category budget, and sh
 
 Assign target stock levels for staples and replenishment triggers. Keep a simple expiry rotation method and a freezer-use plan for flexible meal scheduling. Consistent stock discipline lowers wastage and improves cost predictability.
 
-\nEditorial guidance: review basket mix monthly and remove low-value repeat purchases.
+
+Editorial guidance: review basket mix monthly and remove low-value repeat purchases.
 
 Practical example: for a family of four, split the weekly basket into staples, proteins, vegetables, snacks, and household items, then assign a cap to each category. Track actual spend for four weeks and adjust caps only after pattern data is clear. This keeps cost control realistic and sustainable.
+
+---
+*Last updated: 2026-02-14 | Verified on: 2026-02-14.*

@@ -147,10 +147,6 @@ Editorial guidance: keep one running log of assumptions, updates, and confirmati
 Editorial guidance: keep one running log of assumptions, updates, and confirmations so your next cycle is faster and less error-prone.
 Editorial guidance: keep one running log of assumptions, updates, and confirmations so your next cycle is faster and less error-prone.
 
----
-*Last updated: 2026-02-14 | Verified on: 2026-02-14.*
-
-
 ## Commuter Reliability Strategy
 
 Build a weekly commute matrix with departure windows, expected transfer points, and fallback options. Rate each route by reliability, total time, and walkability. Over time, keep the top two options for each destination.
@@ -159,3 +155,5 @@ Build a weekly commute matrix with departure windows, expected transfer points, 
 
 Public transport outcomes improve when first-mile and last-mile segments are planned in advance. Define pick-up points, walk-safe routes, and backup ride options for rain periods. This reduces missed connection stress.
 
+---
+*Last updated: 2026-02-14 | Verified on: 2026-02-14.*

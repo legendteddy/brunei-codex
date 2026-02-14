@@ -148,6 +148,7 @@ A: Narrow options with explicit criteria, document tradeoffs, and keep written c
 - [Banking in Brunei]({{ '/guides/banking-in-brunei/' | relative_url }})
 - [Getting Around Brunei]({{ '/guides/getting-around-brunei-transport/' | relative_url }})
 
+What this looks like: before demolition starts, confirm approved scope, payment milestones, and acceptance criteria in writing. Keep photos of baseline condition by room, and log any change request with date and cost impact. This avoids scope drift and makes final handover disputes easier to resolve with evidence. [Source: Official portals listed in Source Notes]
+
 ---
 *Last updated: 2026-02-14 | Verified on: 2026-02-14.*
-\nWhat this looks like: before demolition starts, confirm approved scope, payment milestones, and acceptance criteria in writing. Keep photos of baseline condition by room, and log any change request with date and cost impact. This avoids scope drift and makes final handover disputes easier to resolve with evidence. [Source: Official portals listed in Source Notes]

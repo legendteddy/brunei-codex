@@ -146,10 +146,6 @@ Editorial guidance: keep one running log of assumptions, updates, and confirmati
 Editorial guidance: keep one running log of assumptions, updates, and confirmations so your next cycle is faster and less error-prone.
 Editorial guidance: keep one running log of assumptions, updates, and confirmations so your next cycle is faster and less error-prone.
 
----
-*Last updated: 2026-02-14 | Verified on: 2026-02-14.*
-
-
 ## Practical Test Preparation Framework
 
 Treat test preparation as competency training rather than repetition without feedback. Break preparation into hazard awareness, maneuver precision, and decision timing at intersections. Track weak points after each practice run and focus the next session on one specific improvement target.
@@ -158,3 +154,5 @@ Treat test preparation as competency training rather than repetition without fee
 
 Prepare documents the night before, arrive early, and follow a calm pre-drive routine. During assessment, prioritize observation discipline and controlled decision-making. Consistency usually outperforms aggressive pace.
 
+---
+*Last updated: 2026-02-14 | Verified on: 2026-02-14.*

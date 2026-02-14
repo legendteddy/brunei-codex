@@ -148,6 +148,7 @@ A: Narrow options with explicit criteria, document tradeoffs, and keep written c
 - [Banking in Brunei]({{ '/guides/banking-in-brunei/' | relative_url }})
 - [Getting Around Brunei]({{ '/guides/getting-around-brunei-transport/' | relative_url }})
 
+What this looks like: after school tours, score each option against the same matrix: curriculum continuity, support services, commute time, and annual total cost. A structured matrix prevents emotional over-weighting of one factor and helps families make a stable, transparent decision. [Source: Official portals listed in Source Notes]
+
 ---
 *Last updated: 2026-02-14 | Verified on: 2026-02-14.*
-\nWhat this looks like: after school tours, score each option against the same matrix: curriculum continuity, support services, commute time, and annual total cost. A structured matrix prevents emotional over-weighting of one factor and helps families make a stable, transparent decision. [Source: Official portals listed in Source Notes]

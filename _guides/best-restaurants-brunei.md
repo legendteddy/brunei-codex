@@ -140,6 +140,8 @@ A: Yes. Add child/elder comfort and restroom access as non-negotiable criteria.
 
 
 
+## Restaurant Selection Matrix\n\nA better way to pick restaurants is to score each option on four criteria: menu fit, location friction, timing reliability, and all-in cost. Give each criterion a simple 1-5 score, then choose the highest total that still meets your non-negotiables. This avoids over-weighting popularity and keeps decisions consistent across casual meals, family gatherings, and work dinners. [Source: Official pages listed in Source Notes]\n
+### Booking and execution controls\n\nFor larger groups, confirm reservation status in writing, re-check opening hours on the same day, and define an arrival window. Keep one backup venue in the same district to reduce last-minute disruption. If budget discipline matters, decide spend limits before ordering and choose shared dishes intentionally rather than reactively. [Source: Official pages listed in Source Notes]
+
 ---
 *Last updated: 2026-02-14 | Verified on: 2026-02-14.*
-\n## Restaurant Selection Matrix\n\nA better way to pick restaurants is to score each option on four criteria: menu fit, location friction, timing reliability, and all-in cost. Give each criterion a simple 1-5 score, then choose the highest total that still meets your non-negotiables. This avoids over-weighting popularity and keeps decisions consistent across casual meals, family gatherings, and work dinners. [Source: Official pages listed in Source Notes]\n\n### Booking and execution controls\n\nFor larger groups, confirm reservation status in writing, re-check opening hours on the same day, and define an arrival window. Keep one backup venue in the same district to reduce last-minute disruption. If budget discipline matters, decide spend limits before ordering and choose shared dishes intentionally rather than reactively. [Source: Official pages listed in Source Notes]

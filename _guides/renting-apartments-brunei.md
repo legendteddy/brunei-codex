@@ -14,7 +14,7 @@ sources:
   - https://www.tcp.gov.bn/
   - https://www.baiduri.com.bn/
   - https://www.bibd.com.bn/
-  - https://www.brunaiweather.com.bn/
+  - https://www.bruneiweather.com.bn/
 ---
 # Renting Apartments in Brunei - Complete Guide
 
@@ -130,7 +130,7 @@ A: If it affects legal status, money, or deadlines, verify again before acting.
   Confidence: `official` or `institutional` depending on page ownership
 - https://www.bibd.com.bn/  
   Confidence: `official` or `institutional` depending on page ownership
-- https://www.brunaiweather.com.bn/  
+- https://www.bruneiweather.com.bn/  
   Confidence: `official` or `institutional` depending on page ownership
 
 - Internal planning references:
@@ -146,10 +146,6 @@ Editorial guidance: keep one running log of assumptions, updates, and confirmati
 Editorial guidance: keep one running log of assumptions, updates, and confirmations so your next cycle is faster and less error-prone.
 Editorial guidance: keep one running log of assumptions, updates, and confirmations so your next cycle is faster and less error-prone.
 
----
-*Last updated: 2026-02-14 | Verified on: 2026-02-14.*
-
-
 ## Apartment Viewing and Contract Controls
 
 Before placing a deposit, run a two-part check: physical unit review and contract review. In the physical review, test water pressure, power points, air-conditioning output, and noise profile at two different times of day. In the contract review, confirm start date, duration, notice period, deposit return terms, and repair responsibility split. Keep all commitments in writing.
@@ -158,3 +154,5 @@ Before placing a deposit, run a two-part check: physical unit review and contrac
 
 Use a move-in checklist with timestamped photos for each room. Document pre-existing wear, meter readings, and handover inventory. This protects both tenant and owner when move-out reconciliation happens.
 
+---
+*Last updated: 2026-02-14 | Verified on: 2026-02-14.*
