@@ -119,6 +119,7 @@ A: Use a checklist template and follow the same verification sequence each time.
 - [Work Permit and Visa Process in Brunei]({{ '/guides/work-permit-visa-process-brunei/' | relative_url }})
 - [Emergency Contacts and Services in Brunei]({{ '/guides/emergency-contacts-services-brunei/' | relative_url }})
 - [Healthcare in Brunei]({{ '/guides/healthcare-in-brunei/' | relative_url }})
+- [Laptop Buying Guide]({{ '/guides/laptop-buying-guide-brunei/' | relative_url }})
 
 ## Source Notes
 

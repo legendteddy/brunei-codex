@@ -184,6 +184,7 @@ A: Yes. Families should separately track schooling, healthcare, transport coordi
 - [Banking in Brunei]({{ '/guides/banking-in-brunei/' | relative_url }})
 - [Laptop Buying Guide]({{ '/guides/laptop-buying-guide-brunei/' | relative_url }})
 - [Aircon Servicing Guide]({{ '/guides/aircon-servicing-brunei/' | relative_url }})
+- [Plumbing & Electrical Contractor Guide]({{ '/guides/plumbing-electrical-contractor-guide-brunei/' | relative_url }})
 - [Smart Home Guide]({{ '/guides/smart-home-guide/' | relative_url }})
 - [Healthcare in Brunei]({{ '/guides/healthcare-in-brunei/' | relative_url }})
 - [Getting Around Brunei]({{ '/guides/getting-around-brunei-transport/' | relative_url }})

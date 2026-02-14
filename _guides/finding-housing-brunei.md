@@ -224,7 +224,9 @@ A: Keep signed lease copies, payment confirmations, inspection notes, and docume
 - [Cost of Living in Brunei]({{ '/guides/cost-of-living-brunei/' | relative_url }})
 - [Banking in Brunei]({{ '/guides/banking-in-brunei/' | relative_url }})
 - [Getting Around Brunei]({{ '/guides/getting-around-brunei-transport/' | relative_url }})
+- [Getting Around Brunei]({{ '/guides/getting-around-brunei-transport/' | relative_url }})
 - [Healthcare in Brunei]({{ '/guides/healthcare-in-brunei/' | relative_url }})
+- [Plumbing & Electrical Contractor Guide]({{ '/guides/plumbing-electrical-contractor-guide-brunei/' | relative_url }})
 
 ## Verification Snapshot
 
