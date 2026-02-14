@@ -5,7 +5,8 @@ date: 2026-02-14
 last_updated: 2026-02-14
 verified_on: 2026-02-14
 owner: swarm-content
-content_state: verified
+content_state: draft
+published: false
 category: activities
 tags: [hiking trails, outdoor activities, brunei nature, trekking, tasek lama, bukit shahbandar]
 meta_description: "Complete guide to Brunei's hiking trails. Updated 2026. Tasek Lama, Bukit Shahbandar, and Sipatir. Maps, difficulty levels, and safety tips."
@@ -15,6 +16,8 @@ sources:
   - https://www.bruneiweather.com.bn
   - https://moh.gov.bn/contact-us/
 ---
+
+> Verification status: This guide is in draft and temporarily unpublished. Specific factual claims must be re-verified against current official or primary sources before republishing.
 
 # Hiking Trails in Brunei - Complete Guide
 

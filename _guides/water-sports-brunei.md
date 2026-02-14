@@ -5,7 +5,8 @@ date: 2026-02-14
 last_updated: 2026-02-14
 verified_on: 2026-02-14
 owner: swarm-content
-content_state: verified
+content_state: draft
+published: false
 category: activities
 tags: [water sports, diving, wreck diving, kayaking, brunei sea]
 meta_description: "Expert guide to water sports in Brunei. Wreck diving the 'Big Four', kayaking in Temburong, and Serasa Beach activities. Costs and operator details."
@@ -15,6 +16,8 @@ sources:
   - https://www.bruneitourism.com
   - https://www.oceanicquest.com
 ---
+
+> Verification status: This guide is in draft and temporarily unpublished. Specific factual claims must be re-verified against current official or primary sources before republishing.
 
 # Water Sports & Recreation - Complete Guide
 

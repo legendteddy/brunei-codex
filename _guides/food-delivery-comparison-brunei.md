@@ -5,6 +5,7 @@ last_updated: 2026-02-14
 verified_on: 2026-02-14
 owner: swarm-content
 content_state: draft
+published: false
 category: food
 tags: [food delivery, brunei, app comparison, delivery fees]
 meta_description: "Everything you need to know about food delivery in Brunei. Updated 2026. Platform comparison, fee logic, ordering workflow, and risk controls."

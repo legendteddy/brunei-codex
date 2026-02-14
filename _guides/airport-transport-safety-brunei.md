@@ -5,7 +5,8 @@ date: 2026-02-14
 last_updated: 2026-02-14
 verified_on: 2026-02-14
 owner: swarm-content
-content_state: verified
+content_state: draft
+published: false
 category: living
 tags: [airport transport, safety, bus guide, dart brunei]
 meta_description: "Essential safety guide for Brunei International Airport transport. Updated 2026. Why you must not walk, and how to use Bus/Dart safely."
@@ -15,6 +16,8 @@ sources:
   - https://www.dartbrunei.com
   - https://www.jpd.gov.bn
 ---
+
+> Verification status: This guide is in draft and temporarily unpublished. Specific factual claims must be re-verified against current official or primary sources before republishing.
 
 # Airport Transport Safety - Complete Guide
 

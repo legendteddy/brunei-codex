@@ -5,6 +5,7 @@ last_updated: 2026-02-14
 verified_on: 2026-02-14
 owner: swarm-content
 content_state: draft
+published: false
 category: culture
 tags: [ramadan, brunei, moon sighting, daily logistics]
 meta_description: "Everything you need to know about Ramadan in Brunei. Updated 2026. Daily logistics, schedules, etiquette, and verification links."

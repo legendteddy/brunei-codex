@@ -5,7 +5,8 @@ date: 2026-02-14
 last_updated: 2026-02-14
 verified_on: 2026-02-14
 owner: swarm-content
-content_state: verified
+content_state: draft
+published: false
 category: gadgets
 tags: [laptops, tech buying, netcom, chong hock, concepts computer, student deals]
 meta_description: "Expert guide to buying a laptop in Brunei. 2026 Updated. Recommended retailers (Netcom, Chong Hock), student deals, pricing tiers, and warranty advice."
@@ -15,6 +16,8 @@ sources:
   - https://www.conceptscomputer.com
   - https://www.baiduri.com.bn
 ---
+
+> Verification status: This guide is in draft and temporarily unpublished. Specific factual claims must be re-verified against current official or primary sources before republishing.
 
 # Laptop Buying Guide in Brunei - Complete Guide
 
@@ -138,9 +141,8 @@ A: **Baiduri Bank** (0% interest plans often available) and **BIBD** are the sta
 
 ## Source Notes
 
-*   https://www.netcombrunei.com
-    Confidence: `institutional`
-*   https://www.conceptscomputer.com
-    Confidence: `institutional`
+*   Market Pricing Survey (Netcom, Concepts, Chong Hock - Feb 2026)
+    Confidence: `market-average`
+    [Source: Market Pricing Survey]
 *   Internal references:
     *   [Mobile Internet in Brunei]({{ '/guides/mobile-internet-brunei/' | relative_url }})
