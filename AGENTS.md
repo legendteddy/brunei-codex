@@ -179,6 +179,18 @@ Before publish, verify:
 - Use descriptive anchor text
 - Keep `last_updated` current when edits are made
 
+## 7.2) Automatic SEO Improvement (Required)
+- Agents must automatically run an SEO pass whenever creating or updating a guide.
+- Required SEO improvements per update:
+  1. Optimize title for intent + location (`[topic] in Brunei`).
+  2. Improve meta description for clarity, recency, and action value.
+  3. Strengthen internal linking to related cluster pages (minimum 3, preferred 5+ when relevant).
+  4. Ensure FAQ section uses direct question-answer phrasing.
+  5. Ensure at least one structured table for scannability.
+  6. Improve heading hierarchy and keyword clarity without stuffing.
+  7. Add/refresh source-backed updates and update `last_updated` + `verified_on`.
+- If an SEO improvement opportunity is detected, agent should apply it in the same update cycle (do not defer).
+
 ## 7.1) Source Hierarchy
 Use sources in this order of preference:
 1. Official Brunei government pages (`gov.bn`, ministry/department/regulator domains)
@@ -205,6 +217,7 @@ Freshness requirement:
 4. Publish with complete front matter and sources.
 5. Re-check all time-sensitive claims on publish day.
 6. Run automatic live lookup immediately before final publish.
+7. Run automatic SEO improvement pass before publish.
 
 ### Weekly (30-45 min)
 1. Internal link audit (no broken internal paths).
@@ -215,6 +228,7 @@ Freshness requirement:
 6. Re-verify event dates, times, venues, and organizer links on event pages.
 7. Re-verify gadget prices/availability and note date-checked context.
 8. Remove or rewrite obsolete claims discovered during re-verification.
+9. Run SEO improvement sweep on top-priority guides (titles/meta/internal links/FAQ clarity).
 
 ### Monthly (1-2 hours)
 1. Review coverage and freshness.
