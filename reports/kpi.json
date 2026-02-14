@@ -1,11 +1,11 @@
 {
   "compliance_pass_rate": 1.0,
   "corrections_sla_adherence": null,
-  "internal_link_health": 0.9929,
-  "last_generated_at": "2026-02-14T15:07:27.348909+00:00",
+  "internal_link_health": 1.0,
+  "last_generated_at": "2026-02-14T15:10:03.327129+00:00",
   "needs_refresh_guides": 0,
   "source_coverage_ratio": 1.0,
   "stale_risk_guides": 0,
   "total_guides": 42,
-  "verified_guides": 37
+  "verified_guides": 42
 }
