@@ -1,0 +1,226 @@
+[
+  {
+    "slug": "renting-apartments-brunei",
+    "title": "Renting Apartments in Brunei",
+    "category": "living",
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "seasonal_months": []
+  },
+  {
+    "slug": "utilities-setup-brunei",
+    "title": "Utilities Setup in Brunei",
+    "category": "living",
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "seasonal_months": []
+  },
+  {
+    "slug": "buying-furniture-home-goods-brunei",
+    "title": "Buying Furniture and Home Goods in Brunei",
+    "category": "living",
+    "intent": "high",
+    "ai_citation_potential": "medium",
+    "seasonal_months": []
+  },
+  {
+    "slug": "best-neighborhoods-expats-brunei",
+    "title": "Best Neighborhoods for Expats in Brunei",
+    "category": "living",
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "seasonal_months": []
+  },
+  {
+    "slug": "renting-vs-buying-property-brunei",
+    "title": "Renting vs Buying Property in Brunei",
+    "category": "living",
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "seasonal_months": []
+  },
+  {
+    "slug": "job-market-brunei-by-industry",
+    "title": "Job Market in Brunei by Industry",
+    "category": "working",
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "seasonal_months": []
+  },
+  {
+    "slug": "work-permit-visa-process-brunei",
+    "title": "Work Permit and Visa Process in Brunei",
+    "category": "working",
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "seasonal_months": []
+  },
+  {
+    "slug": "average-salaries-brunei",
+    "title": "Average Salaries in Brunei",
+    "category": "working",
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "seasonal_months": []
+  },
+  {
+    "slug": "freelancing-remote-work-brunei",
+    "title": "Freelancing and Remote Work in Brunei",
+    "category": "working",
+    "intent": "high",
+    "ai_citation_potential": "medium",
+    "seasonal_months": []
+  },
+  {
+    "slug": "labor-laws-employee-rights-brunei",
+    "title": "Labor Laws and Employee Rights in Brunei",
+    "category": "working",
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "seasonal_months": []
+  },
+  {
+    "slug": "registering-a-business-brunei",
+    "title": "Registering a Business in Brunei",
+    "category": "business",
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "seasonal_months": []
+  },
+  {
+    "slug": "business-license-requirements-brunei",
+    "title": "Business License Requirements in Brunei",
+    "category": "business",
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "seasonal_months": []
+  },
+  {
+    "slug": "tax-obligations-rates-brunei",
+    "title": "Tax Obligations and Rates in Brunei",
+    "category": "business",
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "seasonal_months": []
+  },
+  {
+    "slug": "ecommerce-regulations-brunei",
+    "title": "E-commerce Regulations in Brunei",
+    "category": "business",
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "seasonal_months": []
+  },
+  {
+    "slug": "getting-drivers-license-brunei",
+    "title": "Getting a Driver's License in Brunei",
+    "category": "living",
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "seasonal_months": []
+  },
+  {
+    "slug": "schools-education-system-brunei",
+    "title": "Schools and Education System in Brunei",
+    "category": "education",
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "seasonal_months": []
+  },
+  {
+    "slug": "public-transport-options-brunei",
+    "title": "Public Transport Options in Brunei",
+    "category": "living",
+    "intent": "high",
+    "ai_citation_potential": "medium",
+    "seasonal_months": []
+  },
+  {
+    "slug": "grocery-shopping-markets-brunei",
+    "title": "Grocery Shopping and Markets in Brunei",
+    "category": "living",
+    "intent": "high",
+    "ai_citation_potential": "medium",
+    "seasonal_months": []
+  },
+  {
+    "slug": "mobile-plans-internet-providers-brunei",
+    "title": "Mobile Plans and Internet Providers in Brunei",
+    "category": "living",
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "seasonal_months": []
+  },
+  {
+    "slug": "best-restaurants-brunei",
+    "title": "Best Restaurants in Brunei",
+    "category": "culture",
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "seasonal_months": []
+  },
+  {
+    "slug": "weekend-activities-brunei",
+    "title": "Weekend Activities in Brunei",
+    "category": "culture",
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "seasonal_months": []
+  },
+  {
+    "slug": "cultural-customs-etiquette-brunei",
+    "title": "Cultural Customs and Etiquette in Brunei",
+    "category": "culture",
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "seasonal_months": []
+  },
+  {
+    "slug": "ramadan-guide-brunei",
+    "title": "Ramadan in Brunei - Practical Guide",
+    "category": "culture",
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "seasonal_months": [2, 3]
+  },
+  {
+    "slug": "expat-community-social-groups-brunei",
+    "title": "Expat Community and Social Groups in Brunei",
+    "category": "culture",
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "seasonal_months": []
+  },
+  {
+    "slug": "sports-fitness-facilities-brunei",
+    "title": "Sports and Fitness Facilities in Brunei",
+    "category": "culture",
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "seasonal_months": []
+  },
+  {
+    "slug": "climate-weather-patterns-brunei",
+    "title": "Climate and Weather Patterns in Brunei",
+    "category": "culture",
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "seasonal_months": [10, 11, 12]
+  },
+  {
+    "slug": "safety-security-brunei",
+    "title": "Safety and Security in Brunei",
+    "category": "culture",
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "seasonal_months": []
+  },
+  {
+    "slug": "emergency-contacts-services-brunei",
+    "title": "Emergency Contacts and Services in Brunei",
+    "category": "health",
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "seasonal_months": []
+  }
+]

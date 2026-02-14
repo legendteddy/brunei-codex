@@ -1,0 +1,35 @@
+name: Content Quality and Build
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  quality-and-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate guide content contract
+        run: python scripts/validate_guides.py
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2"
+          bundler-cache: true
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build --trace
+
+      - name: Check internal links in built site
+        run: bundle exec htmlproofer ./_site --disable-external --check-html --allow-hash-href

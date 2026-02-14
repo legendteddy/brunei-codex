@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<article class="shell guide">
+  <header class="guide-hero">
+    <p class="eyebrow">{{ page.category | capitalize }} Guide</p>
+    <h1>{{ page.title }}</h1>
+    <p class="meta">
+      Published {{ page.date | date: "%B %-d, %Y" }} |
+      Last updated {{ page.last_updated | date: "%B %-d, %Y" }}
+    </p>
+    <p class="quick-answer"><strong>Quick Answer:</strong> {{ page.quick_answer }}</p>
+  </header>
+
+  {% if page.toc and page.toc.size > 0 %}
+  <nav class="toc" aria-label="Table of Contents">
+    <h2>Table of Contents</h2>
+    <ol>
+      {% for section in page.toc %}
+      <li><a href="#{{ section | slugify }}">{{ section }}</a></li>
+      {% endfor %}
+    </ol>
+  </nav>
+  {% endif %}
+
+  <section class="guide-body">
+    {{ content }}
+  </section>
+
+  {% if page.sources and page.sources.size > 0 %}
+  <section>
+    <h2>Official Sources</h2>
+    <ul>
+      {% for source in page.sources %}
+      <li><a href="{{ source }}" rel="nofollow noopener">{{ source }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  <p class="updated-note">Last updated: {{ page.last_updated | date: "%B %-d, %Y" }} | Have suggestions? Contact us.</p>
+</article>

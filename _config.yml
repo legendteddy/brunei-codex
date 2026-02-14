@@ -1,0 +1,39 @@
+title: BruneiVerse
+description: Practical, neutral guides for living, working, and settling in Brunei.
+url: "https://legendteddy.github.io"
+baseurl: "/bruneiverse"
+timezone: Asia/Brunei
+lang: en
+
+markdown: kramdown
+permalink: pretty
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+collections:
+  guides:
+    output: true
+    permalink: /guides/:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: guides
+    values:
+      layout: guide
+      seo:
+        type: Article
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+exclude:
+  - AGENTS.md
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - scripts/
+  - .github/
