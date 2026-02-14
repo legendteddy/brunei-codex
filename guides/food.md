@@ -2,7 +2,7 @@
 title: Food Guides
 permalink: /guides/food/
 category_key: food
-meta_description: Food in Brunei guides: practical dining choices, budget bands, logistics, and date-checked details.
+meta_description: "Food in Brunei guides: practical dining choices, budget bands, logistics, and date-checked details."
 ---
 
 Food guides focus on “what this looks like” planning: where, price bands, timing, and how to verify opening hours.
@@ -15,7 +15,9 @@ Food guides focus on “what this looks like” planning: where, price bands, ti
   <article class="guide-item">
     <h3><a href="{{ guide.url | relative_url }}">{{ guide.title }}</a></h3>
     <p>{{ guide.meta_description }}</p>
+    <p><strong>Last updated:</strong> {{ guide.last_updated | date: "%Y-%m-%d" }} | <strong>State:</strong> {{ guide.content_state }}</p>
   </article>
 {% endfor %}
 </div>
+
 

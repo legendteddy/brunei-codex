@@ -14,6 +14,17 @@ Optional date override:
 python scripts/generate_daily_recommendation.py --date 2026-02-14
 ```
 
+Generate roadmap publish queue + Week 1 plan (Phase 1 foundation mode):
+
+```bash
+python scripts/generate_publish_queue.py --date 2026-02-14 --mode foundation --min-per-category 2 --limit 18 --week-size 5
+```
+
+Outputs:
+
+- `reports/publish_queue.json`
+- `reports/week1-publish-plan-YYYY-MM-DD.md`
+
 ## Weekly (30-45 min)
 
 Run maintenance checks and write a report:

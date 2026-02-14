@@ -2,7 +2,7 @@
 title: Movies Guides
 permalink: /guides/movies/
 category_key: movies
-meta_description: Movies and entertainment in Brunei guides: cinemas, formats, ticketing basics, and showtime sources.
+meta_description: "Movies and entertainment in Brunei guides: cinemas, formats, ticketing basics, and showtime sources."
 ---
 
 Movies guides focus on where to watch, what formats exist, and where to check current showtimes.
@@ -15,7 +15,9 @@ Movies guides focus on where to watch, what formats exist, and where to check cu
   <article class="guide-item">
     <h3><a href="{{ guide.url | relative_url }}">{{ guide.title }}</a></h3>
     <p>{{ guide.meta_description }}</p>
+    <p><strong>Last updated:</strong> {{ guide.last_updated | date: "%Y-%m-%d" }} | <strong>State:</strong> {{ guide.content_state }}</p>
   </article>
 {% endfor %}
 </div>
+
 

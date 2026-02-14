@@ -2,7 +2,7 @@
 title: Working Guides
 permalink: /guides/working/
 category_key: working
-meta_description: Working in Brunei guides covering jobs, permits, salaries, and remote work setup.
+meta_description: "Working in Brunei guides covering jobs, permits, salaries, and remote work setup."
 ---
 
 Working guides cover employment pathways, work permits, and career planning.
@@ -15,6 +15,8 @@ Working guides cover employment pathways, work permits, and career planning.
   <article class="guide-item">
     <h3><a href="{{ guide.url | relative_url }}">{{ guide.title }}</a></h3>
     <p>{{ guide.meta_description }}</p>
+    <p><strong>Last updated:</strong> {{ guide.last_updated | date: "%Y-%m-%d" }} | <strong>State:</strong> {{ guide.content_state }}</p>
   </article>
 {% endfor %}
 </div>
+

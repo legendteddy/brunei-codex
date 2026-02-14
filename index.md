@@ -44,5 +44,12 @@ meta_description: Practical, neutral Brunei guides covering cost of living, hous
     <article class="card"><h3><a href="{{ '/guides/education/' | relative_url }}">Education</a></h3></article>
     <article class="card"><h3><a href="{{ '/guides/health/' | relative_url }}">Health</a></h3></article>
     <article class="card"><h3><a href="{{ '/guides/culture/' | relative_url }}">Culture</a></h3></article>
+    <article class="card"><h3><a href="{{ '/guides/activities/' | relative_url }}">Activities</a></h3></article>
+    <article class="card"><h3><a href="{{ '/guides/events/' | relative_url }}">Events</a></h3></article>
+    <article class="card"><h3><a href="{{ '/guides/food/' | relative_url }}">Food</a></h3></article>
+    <article class="card"><h3><a href="{{ '/guides/movies/' | relative_url }}">Movies</a></h3></article>
+    <article class="card"><h3><a href="{{ '/guides/home-services/' | relative_url }}">Home Services</a></h3></article>
+    <article class="card"><h3><a href="{{ '/guides/gadgets/' | relative_url }}">Gadgets</a></h3></article>
   </div>
 </section>
+

@@ -2,7 +2,7 @@
 title: Culture Guides
 permalink: /guides/culture/
 category_key: culture
-meta_description: Culture and lifestyle guides for social norms, activities, and practical etiquette in Brunei.
+meta_description: "Culture and lifestyle guides for social norms, activities, and practical etiquette in Brunei."
 ---
 
 Culture guides focus on practical etiquette and daily social context for smoother integration.
@@ -15,6 +15,8 @@ Culture guides focus on practical etiquette and daily social context for smoothe
   <article class="guide-item">
     <h3><a href="{{ guide.url | relative_url }}">{{ guide.title }}</a></h3>
     <p>{{ guide.meta_description }}</p>
+    <p><strong>Last updated:</strong> {{ guide.last_updated | date: "%Y-%m-%d" }} | <strong>State:</strong> {{ guide.content_state }}</p>
   </article>
 {% endfor %}
 </div>
+

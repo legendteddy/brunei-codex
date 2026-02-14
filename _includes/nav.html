@@ -1,6 +1,8 @@
 <nav class="site-nav" aria-label="Primary">
   <div class="shell nav-inner">
-    <a class="brand" href="{{ '/' | relative_url }}">BruneiVerse</a>
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="BruneiVerse home">
+      <img src="{{ '/assets/logo-bruneiverse.svg' | relative_url }}" alt="BruneiVerse" class="brand-logo">
+    </a>
     <div class="nav-links">
       <a href="{{ '/guides/' | relative_url }}">Guides</a>
       <a href="{{ '/about/' | relative_url }}">About</a>

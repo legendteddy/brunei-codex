@@ -181,7 +181,10 @@
     "category": "culture",
     "intent": "high",
     "ai_citation_potential": "high",
-    "seasonal_months": [2, 3]
+    "seasonal_months": [
+      2,
+      3
+    ]
   },
   {
     "slug": "expat-community-social-groups-brunei",
@@ -205,7 +208,11 @@
     "category": "culture",
     "intent": "medium",
     "ai_citation_potential": "medium",
-    "seasonal_months": [10, 11, 12]
+    "seasonal_months": [
+      10,
+      11,
+      12
+    ]
   },
   {
     "slug": "safety-security-brunei",
@@ -269,6 +276,503 @@
     "category": "home-services",
     "intent": "high",
     "ai_citation_potential": "high",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "category": "working",
+    "title": "Workplace Culture in Brunei",
+    "slug": "workplace-culture-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "category": "working",
+    "title": "Coworking Spaces in Brunei",
+    "slug": "coworking-spaces-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "category": "home-services",
+    "title": "Kitchen Cabinet Cost Guide in Brunei",
+    "slug": "kitchen-cabinet-cost-guide-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "category": "home-services",
+    "title": "Contractor Selection Guide in Brunei",
+    "slug": "contractor-selection-guide-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "category": "home-services",
+    "title": "Modular vs Custom Cabinets in Brunei",
+    "slug": "modular-vs-custom-cabinets-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "category": "food",
+    "title": "Budget Dining in Brunei by District",
+    "slug": "budget-dining-by-district-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "high",
+    "category": "food",
+    "title": "Halal Dining Etiquette in Brunei",
+    "slug": "halal-dining-etiquette-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "category": "food",
+    "title": "Cafe Guide in Brunei",
+    "slug": "cafe-guide-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "high",
+    "ai_citation_potential": "medium",
+    "category": "movies",
+    "title": "Weekly Movie Releases in Brunei",
+    "slug": "weekly-movie-releases-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "category": "movies",
+    "title": "Family-Friendly Entertainment in Brunei",
+    "slug": "family-friendly-entertainment-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "category": "gadgets",
+    "title": "Laptop Buying Guide in Brunei",
+    "slug": "laptop-buying-guide-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "category": "activities",
+    "title": "Hobby Communities in Brunei",
+    "slug": "hobby-communities-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "category": "living",
+    "title": "Pet Ownership in Brunei",
+    "slug": "pet-ownership-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "high",
+    "category": "living",
+    "title": "Recycling and Waste in Brunei",
+    "slug": "recycling-waste-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "high",
+    "category": "living",
+    "title": "Home Insurance in Brunei",
+    "slug": "home-insurance-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "category": "living",
+    "title": "Moving Checklist for Newcomers to Brunei",
+    "slug": "moving-checklist-newcomers-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "category": "living",
+    "title": "Car Buying Guide in Brunei",
+    "slug": "car-buying-guide-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "category": "working",
+    "title": "Government Jobs vs Private Sector in Brunei",
+    "slug": "government-jobs-vs-private-sector-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "category": "working",
+    "title": "TAP and SCP Retirement/Pension in Brunei",
+    "slug": "tap-scp-retirement-pension-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "category": "working",
+    "title": "Interview Culture in Brunei",
+    "slug": "interview-culture-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "category": "working",
+    "title": "Salary Negotiation Norms in Brunei",
+    "slug": "salary-negotiation-norms-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "category": "business",
+    "title": "Halal Certification Process in Brunei",
+    "slug": "halal-certification-process-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "category": "business",
+    "title": "Import/Export Regulations in Brunei",
+    "slug": "import-export-regulations-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "high",
+    "category": "business",
+    "title": "Commercial Property Leasing in Brunei",
+    "slug": "commercial-property-leasing-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "category": "business",
+    "title": "Business Banking Comparison in Brunei",
+    "slug": "business-banking-comparison-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "category": "education",
+    "title": "International Schools Comparison in Brunei",
+    "slug": "international-schools-comparison-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "category": "education",
+    "title": "University Options in Brunei",
+    "slug": "university-options-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "category": "education",
+    "title": "Scholarship Guide in Brunei",
+    "slug": "scholarship-guide-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "category": "education",
+    "title": "Tutoring and Enrichment in Brunei",
+    "slug": "tutoring-enrichment-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "category": "health",
+    "title": "Dental Care in Brunei",
+    "slug": "dental-care-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "category": "health",
+    "title": "Pharmacy and OTC Medicine in Brunei",
+    "slug": "pharmacy-otc-medicine-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "category": "health",
+    "title": "Mental Health Resources in Brunei",
+    "slug": "mental-health-resources-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "category": "health",
+    "title": "Health Insurance Comparison in Brunei",
+    "slug": "health-insurance-comparison-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "category": "culture",
+    "title": "National Day Celebrations in Brunei",
+    "slug": "national-day-celebrations-brunei",
+    "seasonal_months": [
+      2
+    ]
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "category": "culture",
+    "title": "Brunei History Basics",
+    "slug": "brunei-history-basics",
+    "seasonal_months": []
+  },
+  {
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "category": "culture",
+    "title": "Mosque Etiquette for Visitors in Brunei",
+    "slug": "mosque-etiquette-visitors-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "category": "culture",
+    "title": "Malay Language Starter for Brunei",
+    "slug": "malay-language-starter-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "category": "activities",
+    "title": "Hiking Trails in Brunei",
+    "slug": "hiking-trails-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "category": "activities",
+    "title": "Water Sports in Brunei",
+    "slug": "water-sports-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "category": "activities",
+    "title": "Fishing Spots in Brunei",
+    "slug": "fishing-spots-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "category": "activities",
+    "title": "Volunteer Organizations in Brunei",
+    "slug": "volunteer-organizations-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "category": "activities",
+    "title": "Photography Spots in Brunei",
+    "slug": "photography-spots-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "category": "events",
+    "title": "Hari Raya Guide in Brunei",
+    "slug": "hari-raya-guide-brunei",
+    "seasonal_months": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "category": "events",
+    "title": "Birthday Party Venue Guide in Brunei",
+    "slug": "birthday-party-venue-guide-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "high",
+    "ai_citation_potential": "medium",
+    "category": "events",
+    "title": "Wedding Planning Logistics in Brunei",
+    "slug": "wedding-planning-logistics-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "category": "events",
+    "title": "Public Holiday Calendar in Brunei",
+    "slug": "public-holiday-calendar-brunei",
+    "seasonal_months": [
+      1,
+      12
+    ]
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "category": "food",
+    "title": "Street Food Guide in Brunei",
+    "slug": "street-food-guide-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "category": "food",
+    "title": "Cooking Classes in Brunei",
+    "slug": "cooking-classes-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "category": "food",
+    "title": "Food Delivery Comparison in Brunei",
+    "slug": "food-delivery-comparison-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "category": "food",
+    "title": "Specialty Ingredients Sourcing in Brunei",
+    "slug": "specialty-ingredients-sourcing-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "category": "movies",
+    "title": "Streaming Services in Brunei",
+    "slug": "streaming-services-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "category": "movies",
+    "title": "Home Theatre Setup in Brunei",
+    "slug": "home-theatre-setup-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "category": "movies",
+    "title": "Kids Entertainment in Brunei",
+    "slug": "kids-entertainment-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "category": "home-services",
+    "title": "Plumbing and Electrical Contractor Guide in Brunei",
+    "slug": "plumbing-electrical-contractor-guide-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "category": "home-services",
+    "title": "Aircon Servicing in Brunei",
+    "slug": "aircon-servicing-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "category": "home-services",
+    "title": "Pest Control in Brunei",
+    "slug": "pest-control-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "high",
+    "ai_citation_potential": "medium",
+    "category": "home-services",
+    "title": "Cleaning Services in Brunei",
+    "slug": "cleaning-services-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "high",
+    "ai_citation_potential": "high",
+    "category": "gadgets",
+    "title": "Smart Home Guide in Brunei",
+    "slug": "smart-home-brunei-guide",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "category": "gadgets",
+    "title": "Gaming Setup Guide in Brunei",
+    "slug": "gaming-setup-guide-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "category": "gadgets",
+    "title": "Camera Buying Guide in Brunei",
+    "slug": "camera-buying-guide-brunei",
+    "seasonal_months": []
+  },
+  {
+    "intent": "medium",
+    "ai_citation_potential": "medium",
+    "category": "gadgets",
+    "title": "Power Banks and Accessories in Brunei",
+    "slug": "power-bank-accessories-brunei",
     "seasonal_months": []
   }
 ]

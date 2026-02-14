@@ -2,7 +2,7 @@
 title: Health Guides
 permalink: /guides/health/
 category_key: health
-meta_description: Health in Brunei guides covering clinics, hospitals, insurance basics, and healthcare access.
+meta_description: "Health in Brunei guides covering clinics, hospitals, insurance basics, and healthcare access."
 ---
 
 Health guides explain how to access care quickly and prepare for routine and urgent visits.
@@ -15,6 +15,8 @@ Health guides explain how to access care quickly and prepare for routine and urg
   <article class="guide-item">
     <h3><a href="{{ guide.url | relative_url }}">{{ guide.title }}</a></h3>
     <p>{{ guide.meta_description }}</p>
+    <p><strong>Last updated:</strong> {{ guide.last_updated | date: "%Y-%m-%d" }} | <strong>State:</strong> {{ guide.content_state }}</p>
   </article>
 {% endfor %}
 </div>
+

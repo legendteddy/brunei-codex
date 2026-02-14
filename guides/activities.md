@@ -2,7 +2,7 @@
 title: Activities Guides
 permalink: /guides/activities/
 category_key: activities
-meta_description: Activities in Brunei guides: hobbies, sports, community groups, and practical join-how.
+meta_description: "Activities in Brunei guides: hobbies, sports, community groups, and practical join-how."
 ---
 
 Activities guides focus on logistics: where to go, how to join, what it costs, and what to bring.
@@ -15,7 +15,9 @@ Activities guides focus on logistics: where to go, how to join, what it costs, a
   <article class="guide-item">
     <h3><a href="{{ guide.url | relative_url }}">{{ guide.title }}</a></h3>
     <p>{{ guide.meta_description }}</p>
+    <p><strong>Last updated:</strong> {{ guide.last_updated | date: "%Y-%m-%d" }} | <strong>State:</strong> {{ guide.content_state }}</p>
   </article>
 {% endfor %}
 </div>
+
 

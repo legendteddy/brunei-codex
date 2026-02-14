@@ -1,78 +1,49 @@
 #!/usr/bin/env python3
 import argparse
 import datetime as dt
-import json
-import pathlib
-import re
+from typing import Any
 
+from generate_publish_queue import generate_queue
 from lib.front_matter import parse_front_matter_yaml, split_front_matter
 
+import pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 GUIDES_DIR = ROOT / "_guides"
-CATALOG_PATH = ROOT / "data" / "topic_catalog.json"
 
 
-def existing_guides():
-    results = []
-    slugs = set()
+def existing_guides() -> list[dict[str, str]]:
+    results: list[dict[str, str]] = []
     for path in sorted(GUIDES_DIR.glob("*.md")):
         raw = path.read_text(encoding="utf-8")
         fm_raw, _body, _full = split_front_matter(raw)
         fm = parse_front_matter_yaml(fm_raw or "")
-        title = str(fm.get("title") or "")
-        category = str(fm.get("category") or "")
-        slug = path.stem
-        slugs.add(slug)
-        results.append({"title": title, "slug": slug, "category": category})
-    return results, slugs
+        results.append(
+            {
+                "title": str(fm.get("title") or path.stem),
+                "slug": path.stem,
+                "category": str(fm.get("category") or ""),
+            }
+        )
+    return results
 
 
-def score_topic(topic: dict, month: int) -> int:
-    score = 0
-    if topic.get("intent") == "high":
-        score += 3
-    elif topic.get("intent") == "medium":
-        score += 2
-    else:
-        score += 1
-
-    if topic.get("ai_citation_potential") == "high":
-        score += 3
-    elif topic.get("ai_citation_potential") == "medium":
-        score += 2
-    else:
-        score += 1
-
-    seasonal = topic.get("seasonal_months") or []
-    if month in seasonal:
-        score += 3
-
-    return score
-
-
-def derive_internal_links(guides, limit=4):
+def derive_internal_links(guides: list[dict[str, str]], limit: int = 4) -> list[str]:
     picks = guides[:limit]
-    links = []
+    links: list[str] = []
     for g in picks:
         links.append(f"- [{g['title']}]({{{{ '/guides/{g['slug']}/' | relative_url }}}})")
     return links
 
 
-def choose_topic(today: dt.date):
-    catalog = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))
-    guides, existing_slugs = existing_guides()
-    month = today.month
-
-    gaps = [t for t in catalog if t["slug"] not in existing_slugs]
-    ranked = sorted(gaps, key=lambda t: score_topic(t, month), reverse=True)
-
+def choose_topic(today: dt.date) -> dict[str, Any] | None:
+    ranked = generate_queue(today=today, limit=1).get("queue") or []
     if not ranked:
-        return None, guides
-    return ranked[0], guides
+        return None
+    return ranked[0]
 
 
-def print_recommendation(topic: dict, today: dt.date, guides):
+def print_recommendation(topic: dict[str, Any], today: dt.date, guides: list[dict[str, str]]) -> None:
     internal_links = derive_internal_links(guides)
     today_str = today.isoformat()
     year = today.year
@@ -81,10 +52,10 @@ def print_recommendation(topic: dict, today: dt.date, guides):
     print(f"## Daily Content Recommendation - {today_str}\n")
     print(f"**Suggested Topic:** {topic_title}\n")
     print("**Why This Topic:**")
-    print("- Search intent: strong how-to and setup intent for newcomers planning practical actions.")
+    print("- Search intent: strong practical need with clear action steps for readers.")
     print("- Gap in current coverage: yes")
     print(f"- AI citation potential: {topic['ai_citation_potential']}")
-    print("- Estimated search volume: medium-high (based on high-intent query pattern priority)\n")
+    print(f"- Estimated search volume: weighted priority score {topic['scores']['total']}\n")
     print("**Outline:**")
     print("1. Quick Answer (2-3 sentences)")
     print("2. Main Sections:")
@@ -101,10 +72,9 @@ def print_recommendation(topic: dict, today: dt.date, guides):
         print(link)
     print("\n**Estimated Word Count:** 1200-1800 words  ")
     print("**Estimated Time:** 2 hours writing + 30 min editing\n")
-    print("Ready to proceed with full guide creation? [Y/N]")
 
 
-def main():
+def main() -> None:
     parser = argparse.ArgumentParser(description="Generate AGENTS.md formatted daily recommendation.")
     parser.add_argument("--date", help="Date in YYYY-MM-DD format. Defaults to today.")
     args = parser.parse_args()
@@ -113,7 +83,9 @@ def main():
     if args.date:
         today = dt.datetime.strptime(args.date, "%Y-%m-%d").date()
 
-    topic, guides = choose_topic(today)
+    topic = choose_topic(today)
+    guides = existing_guides()
+
     if topic is None:
         print("All catalog topics are already covered. Add new items to data/topic_catalog.json.")
         return

@@ -2,7 +2,7 @@
 title: Living Guides
 permalink: /guides/living/
 category_key: living
-meta_description: Living in Brunei guides: housing, cost of living, utilities, and practical setup advice.
+meta_description: "Living in Brunei guides: housing, cost of living, utilities, and practical setup advice."
 ---
 
 Living guides focus on home setup, monthly budgeting, and day-to-day logistics.
@@ -15,6 +15,8 @@ Living guides focus on home setup, monthly budgeting, and day-to-day logistics.
   <article class="guide-item">
     <h3><a href="{{ guide.url | relative_url }}">{{ guide.title }}</a></h3>
     <p>{{ guide.meta_description }}</p>
+    <p><strong>Last updated:</strong> {{ guide.last_updated | date: "%Y-%m-%d" }} | <strong>State:</strong> {{ guide.content_state }}</p>
   </article>
 {% endfor %}
 </div>
+

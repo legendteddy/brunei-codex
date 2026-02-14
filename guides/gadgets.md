@@ -2,7 +2,7 @@
 title: Gadgets Guides
 permalink: /guides/gadgets/
 category_key: gadgets
-meta_description: Gadgets in Brunei guides: buyer comparisons, price-check notes, warranty reality, and local availability.
+meta_description: "Gadgets in Brunei guides: buyer comparisons, price-check notes, warranty reality, and local availability."
 ---
 
 Gadgets guides separate verified facts (specs, warranty, price checked) from editorial take.
@@ -15,7 +15,9 @@ Gadgets guides separate verified facts (specs, warranty, price checked) from edi
   <article class="guide-item">
     <h3><a href="{{ guide.url | relative_url }}">{{ guide.title }}</a></h3>
     <p>{{ guide.meta_description }}</p>
+    <p><strong>Last updated:</strong> {{ guide.last_updated | date: "%Y-%m-%d" }} | <strong>State:</strong> {{ guide.content_state }}</p>
   </article>
 {% endfor %}
 </div>
+
 

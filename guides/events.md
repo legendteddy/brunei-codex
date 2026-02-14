@@ -2,7 +2,7 @@
 title: Events Guides
 permalink: /guides/events/
 category_key: events
-meta_description: Events in Brunei guides: what’s on, how to attend, tickets, venues, and verification notes.
+meta_description: "Events in Brunei guides: what’s on, how to attend, tickets, venues, and verification notes."
 ---
 
 Events guides prioritize date-checked logistics: when, where, tickets, and organizer links.
@@ -15,7 +15,9 @@ Events guides prioritize date-checked logistics: when, where, tickets, and organ
   <article class="guide-item">
     <h3><a href="{{ guide.url | relative_url }}">{{ guide.title }}</a></h3>
     <p>{{ guide.meta_description }}</p>
+    <p><strong>Last updated:</strong> {{ guide.last_updated | date: "%Y-%m-%d" }} | <strong>State:</strong> {{ guide.content_state }}</p>
   </article>
 {% endfor %}
 </div>
+
 

@@ -5,10 +5,16 @@ layout: default
   <header class="guide-hero">
     <p class="eyebrow">{{ page.category | capitalize }} Guide</p>
     <h1>{{ page.title }}</h1>
-    <p class="meta">
-      Published {{ page.date | date: "%B %-d, %Y" }} |
-      Last updated {{ page.last_updated | date: "%B %-d, %Y" }}
-    </p>
+    <div class="meta-row">
+      <p class="meta">
+        Published {{ page.date | date: "%B %-d, %Y" }} |
+        Last updated {{ page.last_updated | date: "%B %-d, %Y" }}
+      </p>
+      <div class="status-chips">
+        {% if page.verified_on %}<span class="chip">Verified on {{ page.verified_on | date: "%Y-%m-%d" }}</span>{% endif %}
+        {% if page.content_state %}<span class="chip chip-{{ page.content_state }}">{{ page.content_state }}</span>{% endif %}
+      </div>
+    </div>
     <p class="quick-answer"><strong>Quick Answer:</strong> {{ page.quick_answer }}</p>
   </header>
 
@@ -38,5 +44,5 @@ layout: default
   </section>
   {% endif %}
 
-  <p class="updated-note">Last updated: {{ page.last_updated | date: "%B %-d, %Y" }} | Have suggestions? Contact us.</p>
+  <p class="updated-note">Last updated: {{ page.last_updated | date: "%B %-d, %Y" }} | Verified on: {{ page.verified_on | date: "%Y-%m-%d" }} | Have suggestions? Contact us.</p>
 </article>

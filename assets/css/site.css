@@ -357,3 +357,75 @@ th {
     transition: none !important;
   }
 }
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.brand-logo {
+  height: 38px;
+  width: auto;
+  display: block;
+}
+
+.meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.status-chips {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  border: 1px solid rgba(25, 57, 82, 0.2);
+  background: #f8fbff;
+  color: #1f3851;
+  font-size: 0.76rem;
+  font-weight: 700;
+  padding: 0.22rem 0.62rem;
+  letter-spacing: 0.02em;
+}
+
+.chip-verified {
+  background: #e9f8f4;
+  border-color: #96d7c9;
+  color: #0f5c4f;
+}
+
+.chip-draft {
+  background: #fff7e8;
+  border-color: #f0cf93;
+  color: #7c4a00;
+}
+
+.chip-needs-refresh,
+.chip-stale-risk {
+  background: #fff0f0;
+  border-color: #eab0b0;
+  color: #8b2525;
+}
+
+.footer-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.footer-note {
+  margin-top: 0.2rem;
+  font-size: 0.92rem;
+  color: #b9cbdf;
+}
