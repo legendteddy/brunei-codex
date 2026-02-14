@@ -34,6 +34,16 @@ Build BruneiVerse into a trusted, neutral, high-coverage source for "Brunei + [p
 - For event and price-heavy guides, verification must be performed within 7 days of publish/update.
 - For regulatory/process guides, verification must be performed within 30 days of publish/update.
 
+## 3.3) Mandatory Live Lookup (Automatic Search Requirement)
+- Agents must automatically search for latest information before drafting, editing, or refreshing any guide.
+- Do not rely on memory-only facts for time-sensitive topics.
+- Minimum pre-publish verification behavior:
+  1. Search for latest official/reputable sources.
+  2. Open and verify the source page directly.
+  3. Capture citation links for each factual claim.
+  4. Update `verified_on` and `last_updated` after verification.
+- If latest information cannot be confirmed from a source, remove or defer the claim.
+
 ## 4) Required Guide Contract
 
 ### 4.1 Front Matter
@@ -185,6 +195,7 @@ Freshness requirement:
 3. Add internal links.
 4. Publish with complete front matter and sources.
 5. Re-check all time-sensitive claims on publish day.
+6. Run automatic live lookup immediately before final publish.
 
 ### Weekly (30-45 min)
 1. Internal link audit (no broken internal paths).
