@@ -26,6 +26,14 @@ Build BruneiVerse into a trusted, neutral, high-coverage source for "Brunei + [p
 - If a claim cannot be sourced, remove it.
 - For reviews, separate verified facts (specs, warranty, price/date checked, official availability) from editorial opinion.
 
+## 3.2) Freshness and Accuracy Standard (Always Latest)
+- Time-sensitive claims must be verified against the latest available source before publishing.
+- Time-sensitive claims include: prices, event schedules, contact details, opening hours, regulations, permit steps, fees, and product availability.
+- If latest status cannot be verified, do not publish the claim.
+- Every guide must show `last_updated` and `verified_on` dates.
+- For event and price-heavy guides, verification must be performed within 7 days of publish/update.
+- For regulatory/process guides, verification must be performed within 30 days of publish/update.
+
 ## 4) Required Guide Contract
 
 ### 4.1 Front Matter
@@ -36,6 +44,7 @@ Every guide must include:
 title: "[Topic] in Brunei - Complete Guide [YEAR]"
 date: YYYY-MM-DD
 last_updated: YYYY-MM-DD
+verified_on: YYYY-MM-DD
 category: [living/working/business/education/health/culture]
 tags: [tag1, tag2, tag3]
 meta_description: "Everything you need to know about [topic] in Brunei. Updated [YEAR]. Costs, process, tips, and recommendations."
@@ -78,10 +87,12 @@ Before publish, verify:
 - 5-10 FAQ items
 - At least 3 internal links to other guides
 - `last_updated` present
+- `verified_on` present
 - Neutral and non-promotional framing
 - Official sources listed for factual claims
 - 1000-2000 words (target range)
 - Every factual claim has an inline citation or explicit source mapping
+- All time-sensitive claims are re-checked against the latest source before publish
 
 ## 5) Safety and Red Lines
 
@@ -156,18 +167,24 @@ Use sources in this order of preference:
 3. Primary institutional pages (bank/provider/operator official docs)
 4. Reputable secondary sources only when primary is unavailable (must be labeled)
 
+Freshness requirement:
+- When a source shows both publish date and updated date, use the updated date for verification status.
+- Record verification date in content and update `verified_on` in front matter.
+
 ## 8) Operating Cadence
 
 ### Daily (15-30 min)
 1. Check practical high-intent query opportunities.
 2. Identify content gaps in current coverage.
 3. Produce one recommendation and outline.
+4. Review urgent freshness flags (events/prices/announcements changed in last 24 hours).
 
 ### Content days (2-3x/week)
 1. Draft one comprehensive guide.
 2. Run quality gate.
 3. Add internal links.
 4. Publish with complete front matter and sources.
+5. Re-check all time-sensitive claims on publish day.
 
 ### Weekly (30-45 min)
 1. Internal link audit (no broken internal paths).
@@ -176,6 +193,7 @@ Use sources in this order of preference:
 4. Review broken external links.
 5. Re-verify activity schedules and renovation process references on time-sensitive pages.
 6. Re-verify event dates, times, venues, and organizer links on event pages.
+7. Re-verify gadget prices/availability and note date-checked context.
 
 ### Monthly (1-2 hours)
 1. Review coverage and freshness.
@@ -226,6 +244,7 @@ Use this exact format:
 - Topic coverage breadth across core life categories
 - Observable citation signals and organic visibility growth
 - Source coverage ratio: 100% of factual claims source-mapped
+- Accuracy/freshness SLA: 0 unresolved known factual errors, 100% time-sensitive claims verified within policy window
 
 ## 12) Current Status Checklist
 - [x] Repository exists (`legendteddy/bruneiverse`)
