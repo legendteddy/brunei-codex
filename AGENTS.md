@@ -9,7 +9,7 @@
 - Business model: Ad-supported now, transparent sponsored listings later
 
 ## 2) Core Outcome
-Build BruneiVerse into a trusted, neutral, high-coverage source for "Brunei + [practical query]" across living, working, business, education, health, culture, activities/community, home services, and gadget review topics.
+Build BruneiVerse into a trusted, neutral, high-coverage source for "Brunei + [practical query]" across living, working, business, education, health, culture, activities/community, events, home services, and gadget review topics.
 
 ## 3) Editorial Principles
 - Prioritize practical, factual, action-oriented guidance.
@@ -66,6 +66,7 @@ Guide archetypes to support broader scope:
 - Process guides (for example permits, setup, registration)
 - Comparison guides (for example provider/option tables)
 - Activity guides (for example where to play chess in Brunei)
+- Event guides (for example what to do this weekend in Brunei)
 - Home-service guides (for example house renovation planning in Brunei)
 - Review guides (for example gadgets, devices, and buyer comparisons in Brunei)
 
@@ -110,6 +111,7 @@ Before publish, verify:
 - Business registration, licenses, tax obligations
 - Mobile/internet setup, groceries, schools
 - Daily activities and community participation (for example chess clubs, sports groups, hobby communities)
+- Brunei events coverage (weekend events, seasonal events, community fairs, festivals)
 - Gadget reviews and buyer guides (phones, laptops, accessories, smart home devices in Brunei)
 
 ### Secondary (authority depth)
@@ -123,6 +125,11 @@ Before publish, verify:
   - Where to play chess in Brunei
   - Chess clubs, tournaments, and beginner meetups
   - Weekend hobby groups and social activities
+- Events:
+  - Weekend events in Brunei (updated weekly)
+  - Family-friendly events calendar
+  - Seasonal and holiday event guides
+  - Event venue guide by district
 - Home and renovation:
   - House renovation in Brunei (start-to-finish guide)
   - Renovation cost planning by scope
@@ -168,6 +175,7 @@ Use sources in this order of preference:
 3. Regenerate/verify sitemap.
 4. Review broken external links.
 5. Re-verify activity schedules and renovation process references on time-sensitive pages.
+6. Re-verify event dates, times, venues, and organizer links on event pages.
 
 ### Monthly (1-2 hours)
 1. Review coverage and freshness.
