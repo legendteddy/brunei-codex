@@ -1,29 +1,27 @@
 ---
 title: How We Work
 permalink: /about/how-we-work/
-meta_description: How BruneiVerse researches, updates, and discloses editorial and commercial decisions.
+meta_description: How BruneiVerse handles updates, sources, corrections, and disclosures.
 ---
 
 BruneiVerse publishes practical guides with a simple goal: be clear, be current, and be fair.
 
-## Editorial Workflow
+## What You Can Expect
 
-1. Pick high-intent topics with practical user need.
-2. Draft answer-first guides with step-by-step sections, pricing tables, and FAQs.
-3. Add official source links for rules, policies, and institutional information.
-4. Run a quality checklist before publishing.
-5. Refresh pages when information changes.
+- Guides are written in a neutral tone.
+- Time-sensitive details (prices, schedules, contact info) are re-checked when we update a page.
+- We link sources where possible, especially for official rules and processes.
 
 ## Business Model
 
 - Current model: ad-supported content.
-- Future model: a directory with disclosed sponsored placements.
-- Sponsored entries will be clearly labeled as `Featured` or `Sponsored`.
+- Future model: a directory with clearly labeled sponsored placements.
 
-## Ranking and Recommendations
+## Disclosures
 
-When a guide compares options, we focus on factual criteria such as process clarity, cost bands, coverage, and availability. We do not publish hidden rankings tied to payments.
+- If a page includes sponsored content or affiliate links in the future, it will be labeled clearly near the top of the page.
+- We do not publish hidden rankings tied to payments.
 
 ## Corrections
 
-If a guide becomes outdated or incorrect, we update it and refresh the `last updated` date. When something is time-sensitive (prices, schedules, contact details), we re-check it before publishing.
+If you spot something outdated or wrong, we want to fix it quickly. When a correction is made, we update the `last updated` date.
