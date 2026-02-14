@@ -112,8 +112,15 @@ Before publish, verify:
 - Every factual claim has an inline citation or explicit source mapping
 - All time-sensitive claims are re-checked against the latest source before publish
 - Obsolete claims have been replaced or removed
+- No defaming, misleading, or misinformation content remains
 
 ## 5) Safety and Red Lines
+
+## 5.1) Truthfulness and Defamation Policy (Required)
+- No defaming individuals, organizations, institutions, or businesses.
+- No misinformation: if a claim cannot be verified, do not publish it.
+- No misleading framing: avoid deceptive wording, cherry-picked facts, or ambiguous claims presented as certain.
+- If an error is discovered, correct or remove it immediately and update `last_updated` + `verified_on`.
 
 ### Never publish
 - Political opinion or commentary
@@ -121,12 +128,17 @@ Before publish, verify:
 - Criticism of government or monarchy
 - Hidden promotions or biased recommendations
 - Unverified claims presented as fact
+- Defaming statements or allegations without verified evidence
+- Misleading claims, headlines, or comparisons
+- Misinformation or outdated claims presented as current
 - Copied/plagiarized content
+- Copyright-infringing text, images, videos, or other media
 - Personal/private data
 
 ### Allowed with constraints
 - Religious observances (for example Ramadan) only as practical logistics, etiquette, schedules, and factual guidance.
 - Gadget reviews are allowed only with clear disclosure: sponsored/affiliate relationships must be labeled.
+- Only use text/media with proper rights, permission, or clear license compliance.
 
 ## 6) Topic Priorities
 
@@ -212,6 +224,7 @@ Freshness requirement:
   3. SEO checks (title, meta, headings, FAQ, internal links, table presence)
   4. Link integrity (internal and external references)
   5. Obsolete-information detection/removal
+  6. Truthfulness and defamation check (no misleading or defamatory language)
 - If audit fails, agent must fix issues immediately before publishing.
 
 ### Daily (15-30 min)
@@ -242,6 +255,7 @@ Freshness requirement:
 8. Remove or rewrite obsolete claims discovered during re-verification.
 9. Run SEO improvement sweep on top-priority guides (titles/meta/internal links/FAQ clarity).
 10. Run full-site audit and produce a findings list with fixes.
+11. Run misinformation/defamation sweep and remediate findings.
 
 ### Monthly (1-2 hours)
 1. Review coverage and freshness.
