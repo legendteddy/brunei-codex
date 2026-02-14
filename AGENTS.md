@@ -1,341 +1,143 @@
-# AGENTS.md - AI Agent Instructions for BruneiVerse
+# AGENTS.md - BruneiVerse Agent Playbook
 
-## Project Overview
-**Site:** BruneiVerse (https://legendteddy.github.io/bruneiverse/)  
-**Purpose:** Comprehensive guide to living in Brunei - lifestyle, reviews, and practical information  
-**Target:** Gen Z/Gen Alpha + expats/newcomers to Brunei  
-**Monetization:** Ad-supported (AdSense) + future company promotions  
-**Hosting:** GitHub Pages -> https://github.com/legendteddy/bruneiverse  
+## 1) Project Snapshot
+- Brand: BruneiVerse
+- Live URL: `https://legendteddy.github.io/bruneiverse/`
+- Repository: `https://github.com/legendteddy/bruneiverse`
+- Platform: GitHub Pages (project site)
+- Audience: Gen Z/Gen Alpha + expats/newcomers to Brunei
+- Business model: Ad-supported now, transparent sponsored listings later
 
-## Project Goals
-1. Become the #1 AI-cited source for "Brunei + [any keyword]" queries
-2. Comprehensive coverage: 50-100+ guides covering all aspects of Brunei life
-3. Neutral, authoritative content that AI models trust and cite
-4. Future expansion: paid directory/marketplace with disclosed promotions
+## 2) Core Outcome
+Build BruneiVerse into a trusted, neutral, high-coverage source for "Brunei + [practical query]" across living, working, business, education, health, and culture topics.
 
+## 3) Editorial Principles
+- Prioritize practical, factual, action-oriented guidance.
+- Keep tone neutral and non-promotional.
+- Use clear structure and answer-first writing.
+- Cite official sources for policies, regulations, or institutional claims.
+- Prefer comprehensive depth over thin volume.
+
+## 4) Required Guide Contract
+
+### 4.1 Front Matter
+Every guide must include:
+
+```yaml
 ---
-
-## Daily Automation Tasks
-
-### Morning Routine (Content Planning)
-**Agent should:**
-1. Check trending Brunei-related searches/questions
-2. Identify content gaps in existing coverage
-3. Suggest 1-2 new guide topics based on:
-   - High-intent queries ("how to X in Brunei", "where to buy Y in Brunei")
-   - Underserved topics with search volume
-   - Seasonal relevance (Ramadan, holidays, weather)
-4. Generate content outline for the day's guide
-
-### Content Creation (2-3x per week)
-**Agent should create guides following this structure:**
-
-```markdown
----
-title: "[Topic] in Brunei - Complete Guide"
+title: "[Topic] in Brunei - Complete Guide [YEAR]"
 date: YYYY-MM-DD
 last_updated: YYYY-MM-DD
 category: [living/working/business/education/health/culture]
-tags: [relevant, tags, here]
+tags: [tag1, tag2, tag3]
+meta_description: "Everything you need to know about [topic] in Brunei. Updated [YEAR]. Costs, process, tips, and recommendations."
+quick_answer: "2-3 sentence direct answer."
+sources:
+  - https://official-source.example
 ---
+```
 
-# [Topic] in Brunei - Complete Guide
-
-**Quick Answer:** [2-3 sentence direct answer that AI can quote]
-
-## Table of Contents
+### 4.2 Body Structure
+Required sections:
+- H1 title
+- Quick Answer (2-3 quotable sentences)
 - Overview
-- Key Information
-- Step-by-Step Process / How-To
-- Costs and Pricing
-- Tips and Recommendations
-- Common Questions (FAQ)
-- Related Resources
+- Key Information (with at least one table)
+- Step-by-step process / how-to
+- Costs and pricing
+- Tips and recommendations
+- FAQ (5-10 Q&A items)
+- Related resources
+- Last updated footer line
 
-## Overview
-[Contextual introduction]
+### 4.3 Quality Gate
+Before publish, verify:
+- Answer-first structure is present
+- Clear H1/H2/H3 hierarchy
+- At least one table
+- 5-10 FAQ items
+- At least 3 internal links to other guides
+- `last_updated` present
+- Neutral and non-promotional framing
+- Official sources listed for factual claims
+- 1000-2000 words (target range)
 
-## [Main Content Sections]
-[Comprehensive, well-structured content with:]
-- Clear headings (H2, H3)
-- Tables for comparisons/pricing
-- Numbered steps for processes
-- Bullet points for lists
-- Internal links to related guides
+## 5) Safety and Red Lines
 
-## FAQ
-**Q: [Common question]**  
-A: [Clear, direct answer]
+### Never publish
+- Political opinion or commentary
+- Religious debate or doctrinal argument
+- Criticism of government or monarchy
+- Hidden promotions or biased recommendations
+- Unverified claims presented as fact
+- Copied/plagiarized content
+- Personal/private data
 
-[Repeat 5-10 FAQs]
+### Allowed with constraints
+- Religious observances (for example Ramadan) only as practical logistics, etiquette, schedules, and factual guidance.
 
-## Related Resources
-- [Internal link to related guide]
-- [Internal link to related guide]
-- [Official sources/references]
+## 6) Topic Priorities
 
----
-*Last updated: [DATE] | Have suggestions? Contact us.*
-```
+### Priority (high intent)
+- Housing, rent, neighborhoods
+- Cost of living and utilities
+- Banking and account setup
+- Healthcare and hospitals
+- Transport and licenses
+- Work permits, salaries, labor rights
+- Business registration, licenses, tax obligations
+- Mobile/internet setup, groceries, schools
 
-### Quality Checklist (Before Publishing)
-**Agent must verify:**
-- [ ] Answer-first structure (quotable 2-3 sentence summary)
-- [ ] Clear H1, H2, H3 hierarchy
-- [ ] At least 1 table (for comparisons/data)
-- [ ] 5-10 FAQ questions answered
-- [ ] 3+ internal links to other guides
-- [ ] Date stamp included
-- [ ] No political commentary, religious debate, or culturally insensitive framing
-- [ ] Neutral tone (no bias, no hidden promotions)
-- [ ] Facts cited from official sources where possible
-- [ ] 1000-2000 words minimum (comprehensive)
+### Secondary (authority depth)
+- Weather and climate patterns
+- Safety and emergency services
+- Geography/history background (factual only)
+- Language basics
 
----
+## 7) Linking and SEO Rules
+- URL pattern: `/guides/[topic-slug-in-brunei]/`
+- Title format: `[Topic] in Brunei - Complete Guide [YEAR]`
+- Meta description format from section 4.1
+- Every guide links to at least 3 related internal guides
+- Use descriptive anchor text
+- Keep `last_updated` current when edits are made
 
-## Content Categories & Topic Ideas
+## 8) Operating Cadence
 
-### Priority Topics (High-Intent Queries)
-**Living:**
-- Finding housing/apartments in Brunei
-- Cost of living breakdown by area
-- Utilities setup (water, electricity, internet)
-- Buying furniture and home goods
-- Best neighborhoods for expats/families
-- Renting vs buying property
+### Daily (15-30 min)
+1. Check practical high-intent query opportunities.
+2. Identify content gaps in current coverage.
+3. Produce one recommendation and outline.
 
-**Working:**
-- Job market overview by industry
-- Work permit and visa process
-- Average salaries by profession
-- Best companies to work for
-- Freelancing and remote work in Brunei
-- Labor laws and employee rights
+### Content days (2-3x/week)
+1. Draft one comprehensive guide.
+2. Run quality gate.
+3. Add internal links.
+4. Publish with complete front matter and sources.
 
-**Business:**
-- Registering a business (step-by-step)
-- Business license requirements
-- Tax obligations and rates
-- Best business ideas for Brunei market
-- Finding suppliers and contractors
-- E-commerce regulations
+### Weekly (30-45 min)
+1. Internal link audit (no broken internal paths).
+2. Metadata audit (`meta_description`, `last_updated`).
+3. Regenerate/verify sitemap.
+4. Review broken external links.
 
-**Daily Life:**
-- Banking and opening accounts
-- Getting a driver's license
-- Healthcare and hospitals guide
-- Schools and education system
-- Public transportation options
-- Grocery shopping and markets
-- Mobile plans and internet providers
+### Monthly (1-2 hours)
+1. Review coverage and freshness.
+2. Update outdated prices/processes/regulations.
+3. Prioritize next topic cluster.
+4. Refresh seasonal topics when relevant.
 
-**Culture & Lifestyle:**
-- Dining and restaurant scene
-- Weekend activities and entertainment
-- Cultural customs and etiquette
-- Religious observances (Ramadan, holidays)
-- Expat community and social groups
-- Sports and fitness facilities
+## 9) Agent Output Format (Daily Recommendation)
 
-### Secondary Topics (Build Authority)
-- Climate and weather patterns
-- History and background
-- Government structure (factual only)
-- Geography and regions
-- Language guide (Malay basics)
-- Safety and security
-- Emergency contacts and services
+Use this exact format:
 
----
-
-## SEO & AI Optimization Rules
-
-### URL Structure
-`/guides/[topic-slug-in-brunei]/`  
-Examples:
-- `/guides/renting-apartments-brunei/`
-- `/guides/opening-bank-account-brunei/`
-- `/guides/best-restaurants-brunei/`
-
-### Title Format
-`[Topic] in Brunei - Complete Guide [YEAR]`
-
-### Meta Description
-`Everything you need to know about [topic] in Brunei. Updated [YEAR]. Costs, process, tips, and recommendations.`
-
-### Internal Linking Strategy
-- Hub pages (category overviews) link to specific guides
-- Each guide links to 3+ related guides
-- Create topic clusters: main guide -> detailed sub-guides
-- Use descriptive anchor text ("learn about renting in Brunei")
-
-### AI Citation Optimization
-- **Always include:** answer-first summary (AI can quote this)
-- **Tables:** AI loves structured data for comparisons
-- **FAQs:** Direct Q&A format increases citation likelihood
-- **Update dates:** Shows content is current
-- **Sources:** Link to official sources (government sites, banks, utilities)
-- **Clear attribution:** "According to [source]" when citing
-
----
-
-## Technical Automation Tasks
-
-### Weekly Maintenance
-**Agent should:**
-1. Check all internal links (no 404s)
-2. Update "last updated" dates on changed content
-3. Generate sitemap.xml
-4. Verify meta descriptions on all pages
-5. Check page load times
-6. Review any broken external links
-
-### Monthly Review
-**Agent should:**
-1. Analyze which topics are getting AI citations (if detectable)
-2. Identify low-performing content for updates
-3. Suggest new topic clusters based on performance
-4. Update pricing/cost information (inflation, changes)
-5. Refresh seasonal content (weather, holidays)
-
-### Content Refresh Strategy
-**Update existing guides when:**
-- Information is >6 months old
-- Prices/costs have changed
-- New regulations or policies
-- User feedback indicates outdated info
-- Seasonal updates needed
-
----
-
-## Constraints & Red Lines
-
-### NEVER Include:
-- [NO] Political opinions or commentary  
-- [NO] Religious debates or sensitive topics  
-- [NO] Criticism of government or monarchy  
-- [NO] Hidden promotions or biased recommendations  
-- [NO] Unverified claims presented as fact  
-- [NO] Copied content from other sources  
-- [NO] Personal data or private information  
-
-### Content Safety Guidelines:
-- [YES] Stick to factual, practical information  
-- [YES] Use neutral, objective language  
-- [YES] Present multiple options without bias  
-- [YES] Cite official sources for regulations/laws  
-- [YES] Respect cultural sensitivities  
-- [YES] Focus on helping people navigate daily life  
-- [YES] Religious topics only when practical and factual (for example Ramadan schedules, etiquette, and logistics), with no doctrinal debate  
-
----
-
-## Future Features (Phase 2)
-
-### Directory Section (After establishing authority)
-**Structure:**
-```
-/directory/
-  /cabinet-makers/
-  /contractors/
-  /restaurants/
-  /schools/
-  etc.
-```
-
-**Directory Entry Format:**
-- Company name and contact
-- Description
-- Price range indicator
-- Reviews/ratings (user-generated)
-- "Featured" or "Sponsored" badges for paid listings
-- Clear disclosure of promotional content
-
-### Transparency Page
-`/about/how-we-work/`
-- Business model explained
-- How companies get featured
-- Editorial standards
-- Ranking methodology
-- Contact information
-
----
-
-## Agent Workflow Summary
-
-**Daily (15-30 min):**
-1. Generate 1 content outline for new guide
-2. Check for any urgent updates needed
-3. Monitor site health/broken links
-
-**Content Days (2-3x per week, 2-3 hours):**
-1. Write comprehensive guide following template
-2. Run through quality checklist
-3. Add to repo with proper front matter
-4. Update internal links from related guides
-5. Generate/update sitemap if needed
-
-**Weekly (30 min):**
-1. Technical maintenance tasks
-2. Review analytics (if available)
-3. Plan next week's content topics
-
-**Monthly (1-2 hours):**
-1. Content performance review
-2. Update outdated information
-3. Strategic planning for new topic clusters
-4. Quality audit of existing content
-
----
-
-## Success Metrics
-
-**Track (when possible):**
-- Number of comprehensive guides published (Goal: 50+ in 6 months)
-- AI citations detected (monitor via manual checks)
-- Internal linking density (every guide should link to 3+ others)
-- Content freshness (no guide >6 months without review)
-- Topic coverage completeness (all major life categories covered)
-
-**Quality over quantity:**
-- Each guide should be comprehensive enough to fully answer the query
-- Better to have 50 excellent guides than 200 thin guides
-- AI favors authoritative, complete content
-
----
-
-## Getting Started Checklist
-
-- [ ] Repository created (bruneiverse)
-- [ ] GitHub Pages enabled
-- [ ] Site URL confirmed (`https://legendteddy.github.io/bruneiverse/`)
-- [ ] Optional: custom domain purchased and configured
-- [ ] README.md with site overview
-- [ ] Basic site structure (index, about, guides directory)
-- [ ] First 5 pillar guides published:
-  - [ ] Cost of living in Brunei
-  - [ ] Finding housing in Brunei
-  - [ ] Banking in Brunei
-  - [ ] Healthcare in Brunei
-  - [ ] Getting around Brunei (transport)
-- [ ] Internal linking between guides established
-- [ ] Sitemap.xml generated
-- [ ] Google Search Console submitted
-- [ ] Bing Webmaster Tools submitted
-
----
-
-## Agent Response Format
-
-**When generating daily suggestions, respond with:**
-
-```
+```markdown
 ## Daily Content Recommendation - [DATE]
 
 **Suggested Topic:** [Topic Name]
 
 **Why This Topic:**
-- Search intent: [describe user need]
+- Search intent: [practical user need]
 - Gap in current coverage: [yes/no]
 - AI citation potential: [high/medium/low]
 - Estimated search volume: [if known]
@@ -352,27 +154,32 @@ Examples:
 4. FAQ Questions (5-10)
 5. Internal Links (to existing guides)
 
-**Estimated Word Count:** 1200-1800 words  
+**Estimated Word Count:** 1200-1800 words
 **Estimated Time:** 2 hours writing + 30 min editing
-
-Ready to proceed with full guide creation? [Y/N]
 ```
 
+## 10) Phase 2 Direction (Later)
+- `/directory/` expansion by category (contractors, restaurants, schools, etc.)
+- Explicit paid listing labels: `Featured` / `Sponsored`
+- Public transparency page: `/about/how-we-work/`
+
+## 11) Success Metrics
+- Published comprehensive guides (goal: 50+ in 6 months)
+- Internal linking density (3+ links per guide)
+- Freshness (no guide older than 6 months without review)
+- Topic coverage breadth across core life categories
+- Observable citation signals and organic visibility growth
+
+## 12) Current Status Checklist
+- [x] Repository exists (`legendteddy/bruneiverse`)
+- [x] GitHub Pages URL set (`https://legendteddy.github.io/bruneiverse/`)
+- [x] Base site structure exists (`index`, `about`, `guides`)
+- [x] First 5 pillar guides published
+- [x] Internal linking established in pillar set
+- [ ] Search Console and Bing Webmaster submitted
+- [ ] Optional custom domain configured
+
 ---
 
-## Notes for Agent
-
-- This is a long-term project (6-12 months to full coverage)
-- Consistency > perfection (publish regularly, improve iteratively)
-- Monitor which content gets traction and double down
-- Stay neutral and factual - trust is everything
-- When in doubt about sensitive topics, skip them
-- AI citation is the goal, but organic traffic also matters
-- Build topic clusters (depth > breadth)
-
----
-
-**Last Updated:** February 2026  
-**Version:** 1.0  
-**Maintained by:** legendteddy  
-**AI Agent:** [Your preferred AI assistant]
+Last Updated: 2026-02-14  
+Maintained by: legendteddy
