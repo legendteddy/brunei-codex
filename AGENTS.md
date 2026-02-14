@@ -9,7 +9,7 @@
 - Business model: Ad-supported now, transparent sponsored listings later
 
 ## 2) Core Outcome
-Build BruneiVerse into a trusted, neutral, high-coverage source for "Brunei + [practical query]" across living, working, business, education, health, culture, activities/community, and home services topics.
+Build BruneiVerse into a trusted, neutral, high-coverage source for "Brunei + [practical query]" across living, working, business, education, health, culture, activities/community, home services, and gadget review topics.
 
 ## 3) Editorial Principles
 - Prioritize practical, factual, action-oriented guidance.
@@ -24,6 +24,7 @@ Build BruneiVerse into a trusted, neutral, high-coverage source for "Brunei + [p
 - If no official source exists, use a reputable primary source and label it clearly.
 - If a statement is advice, judgment, or estimate, label it as `Editorial guidance` or `Planning estimate` (not fact).
 - If a claim cannot be sourced, remove it.
+- For reviews, separate verified facts (specs, warranty, price/date checked, official availability) from editorial opinion.
 
 ## 4) Required Guide Contract
 
@@ -66,6 +67,7 @@ Guide archetypes to support broader scope:
 - Comparison guides (for example provider/option tables)
 - Activity guides (for example where to play chess in Brunei)
 - Home-service guides (for example house renovation planning in Brunei)
+- Review guides (for example gadgets, devices, and buyer comparisons in Brunei)
 
 ### 4.3 Quality Gate
 Before publish, verify:
@@ -93,6 +95,7 @@ Before publish, verify:
 
 ### Allowed with constraints
 - Religious observances (for example Ramadan) only as practical logistics, etiquette, schedules, and factual guidance.
+- Gadget reviews are allowed only with clear disclosure: sponsored/affiliate relationships must be labeled.
 
 ## 6) Topic Priorities
 
@@ -107,6 +110,7 @@ Before publish, verify:
 - Business registration, licenses, tax obligations
 - Mobile/internet setup, groceries, schools
 - Daily activities and community participation (for example chess clubs, sports groups, hobby communities)
+- Gadget reviews and buyer guides (phones, laptops, accessories, smart home devices in Brunei)
 
 ### Secondary (authority depth)
 - Weather and climate patterns
@@ -124,6 +128,11 @@ Before publish, verify:
   - Renovation cost planning by scope
   - Contractor selection checklist and risk controls
   - Permit and compliance overview (where applicable)
+- Gadgets and tech:
+  - Best budget phones in Brunei
+  - Laptop buying guide in Brunei
+  - Home Wi-Fi router and mesh buyer guide
+  - Smart home starter setup in Brunei
 
 ## 7) Linking and SEO Rules
 - URL pattern: `/guides/[topic-slug-in-brunei]/`
