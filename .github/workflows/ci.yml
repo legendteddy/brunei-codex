@@ -25,6 +25,12 @@ jobs:
       - name: Validate guide content contract
         run: python scripts/validate_guides.py
 
+      - name: Enforce publish policy
+        run: python scripts/enforce_publish_policy.py
+
+      - name: Validate internal guide links (slug-level)
+        run: python scripts/validate_links.py
+
       - name: Tone lint (anti-template)
         run: python scripts/tone_lint.py
 
