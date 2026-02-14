@@ -486,8 +486,21 @@ All work is executed as a coordinated swarm with clear ownership:
   - Maintain operational scripts/workflows
   - Push verified updates to `main` continuously
 
+Parallel execution model (required):
+- Lane A: `Intel & Sources` + `Events/Freshness` specialist agents
+- Lane B: `Content & Coverage` topic agents (food, movies, renovation, gadgets, activities)
+- Lane C: `SEO & Information Architecture` + `UX & Glitch QA`
+- Lane D: `Trust/Legal/Compliance` runs continuously across A-C
+
+Gates:
+1. A and B run in parallel after topic assignment.
+2. C starts as soon as first draft/update is available (does not wait for full batch).
+3. D blocks publish for any unresolved policy/compliance issue.
+4. Automation/Release only merges/pushes when all required checks pass.
+
 Execution order per cycle:
-1. Intel -> 2. Content -> 3. Trust/Legal -> 4. SEO/IA -> 5. UX/QA -> 6. Automation/Release
+1. Parallel lanes A+B+C with continuous D oversight
+2. Automation/Release finalize, audit, and publish
 
 ---
 
