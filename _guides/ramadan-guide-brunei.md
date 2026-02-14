@@ -4,8 +4,8 @@ date: 2026-02-14
 last_updated: 2026-02-14
 verified_on: 2026-02-14
 owner: swarm-content
-content_state: draft
-published: false
+content_state: verified
+published: true
 category: culture
 tags: [ramadan, brunei, moon sighting, daily logistics]
 meta_description: "Everything you need to know about Ramadan in Brunei. Updated 2026. Daily logistics, schedules, etiquette, and verification links."
@@ -120,6 +120,9 @@ A: Not always. Some venues publish dedicated Ramadan timings [Source: BKISHHB Vi
 
 **Q: What is the safest planning method for newcomers?**  
 A: Plan weekly, verify daily, and keep one fallback plan for appointments and errands.
+
+
+Editorial guidance: Islamic-date entries are published with official-source date references and remain subject to formal moon-sighting announcements where stated by authorities.
 
 ## Verification Snapshot
 

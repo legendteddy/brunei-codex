@@ -232,6 +232,7 @@ A: Yes. Reliable travel routes to care points can significantly reduce delays du
 - [Banking in Brunei]({{ '/guides/banking-in-brunei/' | relative_url }})
 - [Finding Housing in Brunei]({{ '/guides/finding-housing-brunei/' | relative_url }})
 - [Getting Around Brunei]({{ '/guides/getting-around-brunei-transport/' | relative_url }})
+- [Mental Health Resources]({{ '/guides/mental-health-resources-brunei/' | relative_url }})
 
 ## Verification Snapshot
 

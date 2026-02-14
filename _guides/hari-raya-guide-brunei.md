@@ -4,8 +4,8 @@ date: 2026-02-14
 last_updated: 2026-02-14
 verified_on: 2026-02-14
 owner: swarm-content
-content_state: draft
-published: false
+content_state: verified
+published: true
 category: events
 tags: [hari raya, brunei events, family logistics, etiquette]
 meta_description: "Everything you need to know about Hari Raya in Brunei. Updated 2026. Logistics, etiquette, planning checklists, and official verification links."
@@ -160,6 +160,9 @@ Before Raya week, run this checklist:
 - One shared itinerary link distributed to key family members.
 
 Even a short checklist can reduce most last-minute stress points.
+
+Editorial guidance: Islamic-date entries are published with official-source date references and remain subject to formal moon-sighting announcements where stated by authorities.
+
 ## Verification Snapshot
 
 - Verified on: 2026-02-14

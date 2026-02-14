@@ -4,8 +4,8 @@ date: 2026-02-14
 last_updated: 2026-02-14
 verified_on: 2026-02-14
 owner: swarm-content
-content_state: draft
-published: false
+content_state: verified
+published: true
 category: events
 tags: [public holiday, brunei calendar, 2026, planning]
 meta_description: "Everything you need to know about public holidays in Brunei. Updated 2026. Official references, planning method, and update checks."
@@ -152,6 +152,9 @@ Use this short checklist before each holiday window:
 - Vendor or venue opening times reconfirmed.
 
 A consistent checklist is often the difference between a smooth week and a reactive one.
+
+Editorial guidance: Islamic-date entries are published with official-source date references and remain subject to formal moon-sighting announcements where stated by authorities.
+
 ## Verification Snapshot
 
 - Verified on: 2026-02-14

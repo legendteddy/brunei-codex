@@ -127,6 +127,9 @@ A: Narrow options with explicit criteria, document tradeoffs, and keep written c
 - [Banking in Brunei]({{ '/guides/banking-in-brunei/' | relative_url }})
 - [Getting Around Brunei]({{ '/guides/getting-around-brunei-transport/' | relative_url }})
 - [Healthcare in Brunei]({{ '/guides/healthcare-in-brunei/' | relative_url }})
+- [Plumbing & Electrical Contractor Guide]({{ '/guides/plumbing-electrical-contractor-guide-brunei/' | relative_url }})
+- [Aircon Servicing Guide]({{ '/guides/aircon-servicing-brunei/' | relative_url }})
+- [Smart Home Guide]({{ '/guides/smart-home-guide/' | relative_url }})
 - [Public Holiday Calendar in Brunei]({{ '/guides/public-holiday-calendar-brunei/' | relative_url }})
 
 ## Source Notes

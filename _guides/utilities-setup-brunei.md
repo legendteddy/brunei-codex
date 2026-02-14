@@ -118,6 +118,8 @@ A: If it affects legal status, money, or deadlines, verify again before acting.
 - [Finding Housing in Brunei]({{ '/guides/finding-housing-brunei/' | relative_url }})
 - [Banking in Brunei]({{ '/guides/banking-in-brunei/' | relative_url }})
 - [Getting Around Brunei]({{ '/guides/getting-around-brunei-transport/' | relative_url }})
+- [Aircon Servicing Guide]({{ '/guides/aircon-servicing-brunei/' | relative_url }})
+- [Smart Home Guide]({{ '/guides/smart-home-guide/' | relative_url }})
 - [Public Holiday Calendar in Brunei]({{ '/guides/public-holiday-calendar-brunei/' | relative_url }})
 
 ## Source Notes
