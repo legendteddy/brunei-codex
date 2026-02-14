@@ -1,4 +1,4 @@
-# BruneiVerse Operations
+# BruneiCodex Operations
 
 ## Daily (15-30 min)
 
@@ -87,3 +87,4 @@ bundle install
 bundle exec jekyll build --trace
 bundle exec jekyll serve
 ```
+

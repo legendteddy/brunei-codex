@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://legendteddy.github.io/bruneiverse/sitemap.xml
+Sitemap: https://legendteddy.github.io/brunei-codex/sitemap.xml
+

@@ -1,4 +1,4 @@
-# BruneiVerse Source Registry
+# BruneiCodex Source Registry
 
 Last verified: 2026-02-14
 
@@ -24,3 +24,4 @@ Last verified: 2026-02-14
 ## Source Usage Rule
 - Factual claims must reference one of the sources above (or another official source added with date).
 - If a claim is based on judgment/template advice rather than a verifiable fact, label it as `Editorial guidance` or `Planning estimate`.
+

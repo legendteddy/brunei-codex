@@ -1,22 +1,27 @@
-# AGENTS.md - BruneiVerse Agent Playbook
+# AGENTS.md - BruneiCodex Agent Playbook
+
+> **Vision reference**: See [VISION.md](VISION.md) for the full platform identity.
 
 ## 1) Project Snapshot
-- Brand: BruneiVerse
-- Live URL: `https://legendteddy.github.io/bruneiverse/`
-- Repository: `https://github.com/legendteddy/bruneiverse`
+- Brand: **BruneiCodex**
+- Tagline: **Self-Evolving Knowledge About Brunei**
+- Identity: AI-verified content platform (not a blog, not a guide site)
+- Live URL: `https://legendteddy.github.io/brunei-codex/`
+- Repository: `https://github.com/legendteddy/brunei-codex`
 - Platform: GitHub Pages (project site)
-- Audience: Gen Z/Gen Alpha + expats/newcomers to Brunei
+- Audience: Anyone navigating life in Brunei - residents, expats, newcomers, businesses
 - Business model: Ad-supported now, transparent sponsored listings later
 
 ## 2) Core Outcome
-Build BruneiVerse into a trusted, neutral, high-coverage source for "Brunei + [practical query]" across living, working, business, education, health, culture, activities/community, events, food/dining, movies/entertainment, home services, and gadget review topics.
+Build BruneiCodex into a **self-evolving, AI-verified knowledge platform** for "Brunei + [any practical question]" across all life categories. The platform must grow, correct, and deepen itself continuously - not publish and forget. Every entry is source-linked, date-verified, and maintained by an AI swarm that monitors for staleness, inaccuracy, and coverage gaps.
 
 ## 3) Editorial Principles
-- Prioritize practical, factual, action-oriented guidance.
+- Prioritize practical, factual, action-oriented knowledge.
 - Keep tone neutral and non-promotional.
 - Use clear structure and answer-first writing.
 - Cite official sources for policies, regulations, or institutional claims.
 - Prefer comprehensive depth over thin volume.
+- Every entry evolves: publish, verify, monitor, refresh. Never publish and abandon.
 
 ## 3.0) Voice and Tone (Non-Robotic)
 - Write like a helpful local guide, not a policy document.
@@ -25,13 +30,13 @@ Build BruneiVerse into a trusted, neutral, high-coverage source for "Brunei + [p
 - Avoid absolute claims; use measurable criteria or cite sources.
 - In user-facing pages, minimize repetitive "must/should" phrasing; reserve strict language for internal policy sections.
 
-## 3.0.1) BruneiVerse Voice Standard (Applies to Every Guide)
+## 3.0.1) BruneiCodex Voice Standard (Applies to Every Entry)
 - Sound like a real editor: vary sentence length, remove filler, and keep a calm, confident tone.
 - Replace template phrases:
   - Avoid: "the best way", "the most reliable", "the fastest path", "this guide is designed to", "use this guide to".
   - Prefer: direct statements of what the reader should do next, with clear conditions and tradeoffs.
 - Use local reality without guessing: when details may change (prices, schedules), say how to verify and show `verified_on`.
-- Add at least one concrete “what this looks like” example per guide (short, practical, and non-promotional).
+- Add at least one concrete "what this looks like" example per entry (short, practical, and non-promotional).
 
 ## 3.0.2) Business and Activities Writing Standard
 - Business guides:
@@ -140,7 +145,7 @@ Template variants by content type:
 - Food guide: cuisine/price range/service style, location map links, operating-hours verification date.
 - Movies guide: cinema/location table, format/language notes, showtime-source links, family suitability notes.
 
-## 4.4) BruneiVerse Gadget Review Standard (Our Own Format)
+## 4.4) BruneiCodex Gadget Review Standard (Our Own Format)
 Goal: reviews should read like a careful human buyer did the homework, not like a spec re-write.
 
 Voice rules:
@@ -487,21 +492,24 @@ Use this exact format:
 - `/directory/` expansion by category (contractors, restaurants, schools, etc.)
 - Explicit paid listing labels: `Featured` / `Sponsored`
 - Public transparency page: `/about/how-we-work/`
+- Expand content types: reference entries, comparison tables, community knowledge, event calendars
+- AI citation optimization: structure entries for extraction by ChatGPT, Gemini, Perplexity
 
 ## 11) Success Metrics
-- Published comprehensive guides (goal: 100+ in 6 months)
-- Internal linking density (3+ links per guide)
-- Freshness (no guide older than 6 months without review)
-- Topic coverage breadth across core life categories
-- Observable citation signals and organic visibility growth
+- Published comprehensive knowledge entries (goal: 100+ in 6 months)
+- Internal linking density (3+ links per entry)
+- Freshness (no entry older than 6 months without review)
+- Topic coverage breadth across all Brunei life categories
+- Observable citation signals: AI systems citing BruneiCodex as a trusted Brunei source
 - Source coverage ratio: 100% of factual claims source-mapped
 - Accuracy/freshness SLA: 0 unresolved known factual errors, 100% time-sensitive claims verified within policy window
 - Corrections SLA adherence: 100% of confirmed errors corrected/retracted within 72 hours
 - Compliance pass rate: 100% CI compliance gate pass on main
+- Self-evolution metric: zero stale entries exceeding verification cadence
 
 ## 12) Current Status Checklist
-- [x] Repository exists (`legendteddy/bruneiverse`)
-- [x] GitHub Pages URL set (`https://legendteddy.github.io/bruneiverse/`)
+- [x] Repository exists (`legendteddy/brunei-codex`)
+- [x] GitHub Pages URL set (`https://legendteddy.github.io/brunei-codex/`)
 - [x] Base site structure exists (`index`, `about`, `guides`)
 - [x] First 5 pillar guides published
 - [x] Internal linking established in pillar set
@@ -516,7 +524,7 @@ Use this exact format:
 - Keep section naming consistent across guide types to improve scanability and AI extraction.
 
 ## 14) AI Swarm Team Topology (L5 Autonomy)
-All work is executed as a coordinated swarm with clear ownership:
+BruneiCodex is maintained by a coordinated AI swarm. The swarm is the engine that makes the platform self-evolving. All work is executed with clear ownership:
 
 - Team 1: `Intel & Sources`
   - Discover latest official/reputable updates
@@ -567,5 +575,7 @@ Execution order per cycle:
 ---
 
 Last Updated: 2026-02-14  
-Maintained by: legendteddy
+Maintained by: legendteddy  
+Platform: BruneiCodex - Self-Evolving Knowledge About Brunei
+
 

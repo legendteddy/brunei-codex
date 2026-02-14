@@ -135,7 +135,7 @@ def generate_kpi() -> dict[str, Any]:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate reports/kpi.json for BruneiVerse.")
+    parser = argparse.ArgumentParser(description="Generate reports/kpi.json for BruneiCodex.")
     parser.add_argument(
         "--out",
         default=str(REPORTS_DIR / "kpi.json"),
@@ -154,4 +154,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 

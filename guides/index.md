@@ -1,7 +1,7 @@
 ---
 title: All Guides
 permalink: /guides/
-meta_description: "Browse complete BruneiVerse guides for living, working, and daily life in Brunei."
+meta_description: "Browse complete BruneiCodex guides for living, working, and daily life in Brunei."
 ---
 
 This is the full guide library. Start with pillar guides, then move into category-specific topics.
@@ -19,3 +19,4 @@ This is the full guide library. Start with pillar guides, then move into categor
   </article>
 {% endfor %}
 </div>
+

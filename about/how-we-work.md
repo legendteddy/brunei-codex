@@ -1,10 +1,10 @@
 ---
 title: How We Work
 permalink: /about/how-we-work/
-meta_description: How BruneiVerse handles updates, sources, corrections, and disclosures.
+meta_description: How BruneiCodex handles updates, sources, corrections, and disclosures.
 ---
 
-BruneiVerse publishes practical guides with a simple goal: be clear, be current, and be fair.
+BruneiCodex publishes practical guides with a simple goal: be clear, be current, and be fair.
 
 ## What You Can Expect
 
@@ -25,3 +25,4 @@ BruneiVerse publishes practical guides with a simple goal: be clear, be current,
 ## Corrections
 
 If you spot something outdated or wrong, we want to fix it quickly. When a correction is made, we update the `last updated` date.
+

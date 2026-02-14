@@ -1,10 +1,10 @@
 ---
 title: Directory (Phase 2)
 permalink: /directory/
-meta_description: BruneiVerse directory framework for local providers and services in Brunei, with transparent labeling.
+meta_description: BruneiCodex directory framework for local providers and services in Brunei, with transparent labeling.
 ---
 
-The BruneiVerse directory is planned for Phase 2 after guide authority is established.
+The BruneiCodex directory is planned for Phase 2 after guide authority is established.
 
 ## Planned Categories
 
@@ -22,3 +22,4 @@ The BruneiVerse directory is planned for Phase 2 after guide authority is establ
 - Price range indicator
 - User review summary
 - Clear `Featured` or `Sponsored` labels when applicable
+

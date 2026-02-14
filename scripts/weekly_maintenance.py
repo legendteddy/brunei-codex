@@ -137,7 +137,7 @@ def write_report(result: dict):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Run weekly BruneiVerse maintenance checks.")
+    parser = argparse.ArgumentParser(description="Run weekly BruneiCodex maintenance checks.")
     parser.add_argument("--write-report", action="store_true", help="Write markdown report to reports/")
     args = parser.parse_args()
 
@@ -159,3 +159,4 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
+

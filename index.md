@@ -1,10 +1,10 @@
 ---
-title: BruneiVerse - Practical Guides for Life in Brunei
+title: BruneiCodex - Practical Guides for Life in Brunei
 meta_description: Practical, neutral Brunei guides covering cost of living, housing, banking, healthcare, transport, and daily setup.
 ---
 
 <section class="shell hero">
-  <h1>BruneiVerse</h1>
+  <h1>BruneiCodex</h1>
   <p>Practical, source-linked guides for life in Brunei. If you are moving, setting up a home, renovating, or just planning your weekend, start here.</p>
 </section>
 
@@ -52,4 +52,5 @@ meta_description: Practical, neutral Brunei guides covering cost of living, hous
     <article class="card"><h3><a href="{{ '/guides/gadgets/' | relative_url }}">Gadgets</a></h3></article>
   </div>
 </section>
+
 

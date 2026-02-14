@@ -1,7 +1,7 @@
-title: BruneiVerse
+title: BruneiCodex
 description: Practical, neutral guides for living, working, and settling in Brunei.
 url: "https://legendteddy.github.io"
-baseurl: "/bruneiverse"
+baseurl: "/brunei-codex"
 timezone: Asia/Brunei
 lang: en
 
@@ -41,3 +41,4 @@ exclude:
   - reports/
   - scripts/
   - .github/
+

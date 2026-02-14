@@ -1,8 +1,8 @@
-# BruneiVerse
+# BruneiCodex
 
-BruneiVerse is a practical guide site for living, working, and navigating daily life in Brunei.
+BruneiCodex is a practical guide site for living, working, and navigating daily life in Brunei.
 
-Repository: `https://github.com/legendteddy/bruneiverse`
+Repository: `https://github.com/legendteddy/brunei-codex`
 
 ## Stack
 
@@ -55,3 +55,4 @@ See `OPERATIONS.md` for daily/weekly/monthly commands:
 - Daily topic recommendation generator
 - Weekly maintenance audit with report output
 - Monthly strategy review report generation
+
