@@ -31,8 +31,8 @@ meta_description: AI-verified, source-linked knowledge for life in Brunei. Every
       <p>Public vs private care registration basics.</p>
     </article>
     <article class="card">
-      <h3><a href="{{ '/guides/gadong-pedestrian-safety/' | relative_url }}">Gadong Safety</a></h3>
-      <p>Safe road crossing and roundabout avoidance.</p>
+      <h3><a href="{{ '/guides/public-transport-brunei/' | relative_url }}">Public Transport</a></h3>
+      <p>Bus and route planning with practical backups.</p>
     </article>
     <article class="card">
       <h3><a href="{{ '/guides/airport-transport-safety-brunei/' | relative_url }}">Airport Transport</a></h3>
@@ -151,3 +151,4 @@ meta_description: AI-verified, source-linked knowledge for life in Brunei. Every
   <h2>How This Works</h2>
   <p>Every entry on BruneiCodex is <strong>AI-verified</strong> against official sources, <strong>date-stamped</strong> with verification dates, and <strong>continuously monitored</strong> for freshness. When information changes in Brunei, the platform adapts. <a href="{{ '/about/how-we-work/' | relative_url }}">Learn more about our process →</a></p>
 </section>
+
