@@ -11,9 +11,9 @@ meta_description: "Everything you need to know about high-end cabinetry in Brune
 quick_answer: "For premium cabinetry in Brunei, buy by system quality, not by showroom look alone: board core, edge sealing, hardware specification, installation standard, and warranty terms are what protect long-term value. Use a structured quote comparison so you are comparing like-for-like scope and specs. Shortlist multiple vendors and choose the one with the clearest written specification, milestone plan, and after-sales process."
 disclosure: "Disclosure: This guide references Caramella Brunei as an example of publicly stated vendor policies. BruneiCodex and Caramella share ownership. Vendor sources are illustrative and not endorsements; compare multiple vendors before deciding."
 sources:
-  - https://business.mofe.gov.bn/SitePages/BusinessSupportCentre.aspx
-  - https://www.abci.gov.bn/SitePages/Registered%20Companies%20List.aspx
-  - https://deps.mofe.gov.bn/SitePages/Consumers%20Complaint.aspx
+  - https://www.mofe.gov.bn/
+  - https://www.abci.gov.bn/
+  - https://deps.mofe.gov.bn/complaints-pca-2/
   - https://caramellabrunei.com/
   - https://caramellabrunei.com/faq.html
 toc:
@@ -230,13 +230,13 @@ A: Use written defect logs and escalate through the documented service process; 
 ## Source Notes
 
 - MOFE Business Support Centre guidance on business setup and note about permits for significant renovation works:  
-  https://business.mofe.gov.bn/SitePages/BusinessSupportCentre.aspx  
+  https://www.mofe.gov.bn/  
   Confidence: `official`
 - ABCi registered companies listing reference for pre-screening legal business entities:  
-  https://www.abci.gov.bn/SitePages/Registered%20Companies%20List.aspx  
+  https://www.abci.gov.bn/  
   Confidence: `official`
 - DEPS consumers complaint page including complaint process and small-claims context:  
-  https://deps.mofe.gov.bn/SitePages/Consumers%20Complaint.aspx  
+  https://deps.mofe.gov.bn/complaints-pca-2/  
   Confidence: `official`
 - Caramella Brunei homepage (business presence details such as years and project count claims):  
   https://caramellabrunei.com/  

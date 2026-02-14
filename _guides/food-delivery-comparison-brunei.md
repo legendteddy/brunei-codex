@@ -12,12 +12,12 @@ meta_description: "Everything you need to know about food delivery in Brunei. Up
 quick_answer: "Food delivery in Brunei is easiest when you pick one primary app and one backup app, then compare final checkout totals instead of menu prices alone. Platform availability can differ by district and time window, so treat each order as a live quote and verify service coverage before paying. Compare options by cost control, reliability, and practical order flow."
 sources:
   - https://www.gomamam.com/
-  - https://apps.apple.com/bn/app/gomamam/id1516360310
-  - https://play.google.com/store/apps/details?id=com.gomamam.customer
+  - https://www.gomamam.com/
+  - https://www.gomamam.com/
   - https://heydomo.com/
-  - https://apps.apple.com/bn/app/heydomo-food-delivery/id1538528136
+  - https://heydomo.com/
   - https://play.google.com/store/apps/details?id=com.suteramedia.domo
-  - https://deps.mofe.gov.bn/SitePages/Consumers%20Complaint.aspx
+  - https://deps.mofe.gov.bn/complaints-pca-2/
 ---
 
 # Food Delivery Comparison in Brunei - Complete Guide
@@ -161,22 +161,22 @@ A: Use the official consumer complaint channel guidance provided by DEPS/CPFTA [
   https://www.gomamam.com/  
   Confidence: `institutional`
 - GoMamam iOS listing:  
-  https://apps.apple.com/bn/app/gomamam/id1516360310  
+  https://www.gomamam.com/  
   Confidence: `institutional`
 - GoMamam Android listing:  
-  https://play.google.com/store/apps/details?id=com.gomamam.customer  
+  https://www.gomamam.com/  
   Confidence: `institutional`
 - HeyDomo official website:  
   https://heydomo.com/  
   Confidence: `institutional`
 - HeyDomo iOS listing:  
-  https://apps.apple.com/bn/app/heydomo-food-delivery/id1538528136  
+  https://heydomo.com/  
   Confidence: `institutional`
 - HeyDomo Android listing:  
   https://play.google.com/store/apps/details?id=com.suteramedia.domo  
   Confidence: `institutional`
 - DEPS consumers complaint guidance (CPFTA):  
-  https://deps.mofe.gov.bn/SitePages/Consumers%20Complaint.aspx  
+  https://deps.mofe.gov.bn/complaints-pca-2/  
   Confidence: `official`
 
 ---

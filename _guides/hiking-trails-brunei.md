@@ -11,7 +11,7 @@ tags: [hiking trails, outdoor safety, brunei activities, nature]
 meta_description: "Everything you need to know about hiking trails in Brunei. Updated 2026. Official trail references, weather safety workflow, and practical planning."
 quick_answer: "Hiking in Brunei is practical when route choice, weather checks, and turnaround timing are handled before trail entry. Use officially listed recreation areas and apply conservative safety controls in wet or low-visibility conditions."
 sources:
-  - https://www.bruneitourism.com/bruneiplaces/tasek-lama-recreational-park/
+  - https://www.bruneitourism.com/
   - https://www.bruneitourism.com/places/bukit-ambog/
   - https://www.bruneitourism.com/luagan-lalak-forest-recreation-park/
   - https://www.bruneiweather.com.bn/
@@ -123,7 +123,7 @@ A: Missing confirmation, unclear scope, unsafe conditions, or unresolved require
 
 ## Source Notes
 
-- https://www.bruneitourism.com/bruneiplaces/tasek-lama-recreational-park/  
+- https://www.bruneitourism.com/  
   Confidence: `official` or `institutional` depending on page ownership
 - https://www.bruneitourism.com/places/bukit-ambog/  
   Confidence: `official` or `institutional` depending on page ownership
@@ -152,3 +152,5 @@ Keep a short verification log each time you update this guide: source URL, date 
 
 ---
 *Last updated: 2026-02-14 | Verified on: 2026-02-14.*
+
+Verification reminder: conditions and access details can change, so confirm trail advisories and weather before departure.

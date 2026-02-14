@@ -12,7 +12,7 @@ meta_description: "Expert guide to building a smart home in Brunei. Ecosystem co
 quick_answer: "In Brunei, the two most viable smart home ecosystems are **Google Home** (best for voice control and compatibility) and **Xiaomi Mi Home** (best for affordable hardware diversity). Before buying any bulb or camera, ensure you have a robust **Mesh WiFi** system, as standard routers cannot penetrate Brunei's concrete walls effectively."
 sources:
   - https://www.aiti.gov.bn
-  - https://www.google.com/nest
+  - https://store.google.com/us/category/connected_home?hl=en-US
   - https://www.mi.com/global/
 ---
 

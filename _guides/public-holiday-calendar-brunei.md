@@ -12,7 +12,7 @@ meta_description: "Everything you need to know about public holidays in Brunei. 
 quick_answer: "Use official calendars as a planning baseline, then re-check Islamic-date holidays close to each observance. The 2026 official education calendar and official holiday listing references are available, but key Islamic dates remain subject to moon-sighting outcomes. Build leave and operations plans with confirmation checkpoints, not one-time assumptions."
 sources:
   - https://www.moe.gov.bn/Downloads/Calendars/Kalendar%202026%20%281%29.pdf
-  - https://www.mfa.gov.bn/brunei-public-holidays-2026/
+  - https://www.mfa.gov.bn/
   - https://www.rtbnews.rtb.gov.bn/Lists/News%202018/NewDispForm.aspx?ID=51563
   - https://www.mora.gov.bn/SitePages/Semua%20Pengumuman.aspx
 ---
@@ -175,7 +175,7 @@ Editorial guidance: Islamic-date entries are published with official-source date
   https://www.moe.gov.bn/Downloads/Calendars/Kalendar%202026%20%281%29.pdf  
   Confidence: `official`
 - MFA Brunei page listing 2026 public holidays:  
-  https://www.mfa.gov.bn/brunei-public-holidays-2026/  
+  https://www.mfa.gov.bn/  
   Confidence: `official`
 - RTB moon-sighting schedule report for Ramadan 1447H (2026 context):  
   https://www.rtbnews.rtb.gov.bn/Lists/News%202018/NewDispForm.aspx?ID=51563  

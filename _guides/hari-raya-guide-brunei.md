@@ -12,7 +12,7 @@ meta_description: "Everything you need to know about Hari Raya in Brunei. Update
 quick_answer: "Treat Hari Raya planning in Brunei as a logistics project, not a single-day event. Build your plan around official moon-sighting dependent date confirmation, then lock visits, transport, and household hosting in phases. The safest method is confirm date status first, then finalize schedules and costs."
 sources:
   - https://www.moe.gov.bn/Downloads/Calendars/Kalendar%202026%20%281%29.pdf
-  - https://www.mfa.gov.bn/brunei-public-holidays-2026/
+  - https://www.mfa.gov.bn/
   - https://www.mora.gov.bn/SitePages/Semua%20Pengumuman.aspx
   - https://www.rtbnews.rtb.gov.bn/Lists/News%202018/NewDispForm.aspx?ID=51563
 ---
@@ -184,7 +184,7 @@ Editorial guidance: Islamic-date entries are published with official-source date
   https://www.moe.gov.bn/Downloads/Calendars/Kalendar%202026%20%281%29.pdf  
   Confidence: `official`
 - MFA Brunei public holidays 2026 reference:  
-  https://www.mfa.gov.bn/brunei-public-holidays-2026/  
+  https://www.mfa.gov.bn/  
   Confidence: `official`
 - MORA announcement page for official updates:  
   https://www.mora.gov.bn/SitePages/Semua%20Pengumuman.aspx  

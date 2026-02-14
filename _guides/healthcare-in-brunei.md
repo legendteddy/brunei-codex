@@ -12,7 +12,7 @@ quick_answer: "Healthcare setup in Brunei works best when you map your nearest p
 sources:
   - https://www.moh.gov.bn
   - https://www.gov.bn
-  - https://www.moh.gov.bn/SitePages/Contact.aspx
+  - https://moh.gov.bn/contact-us/
 toc:
   - Overview
   - Key Information
@@ -249,7 +249,7 @@ For official contact channels and the latest public information, use the MOH con
   https://www.moh.gov.bn  
   Confidence: `official`
 - MOH contact page for official contact channels (verify on each update cycle):  
-  https://www.moh.gov.bn/SitePages/Contact.aspx  
+  https://moh.gov.bn/contact-us/  
   Confidence: `official`
 - Brunei government portal for broader service directories and official references:  
   https://www.gov.bn  

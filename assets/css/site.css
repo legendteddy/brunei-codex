@@ -402,3 +402,192 @@ a:hover {
     grid-template-columns: 1fr;
   }
 }
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  font-size: 0.95rem;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--line);
+}
+
+th {
+  background: var(--bg);
+  font-weight: 700;
+  color: var(--ink);
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+tr:hover {
+  background: #F8FAFC;
+}
+
+/* Visual Polish: Typography & Elements */
+h4,
+h5,
+h6 {
+  color: var(--ink);
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: 1.1rem;
+}
+
+p,
+ul,
+ol {
+  margin-bottom: 1.5rem;
+}
+
+/* Lists */
+.guide-body ul,
+.guide-body ol {
+  padding-left: 1.5rem;
+}
+
+.guide-body li {
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+/* Blockquotes & Callouts */
+blockquote {
+  border-left: 4px solid var(--brand);
+  background: var(--brand-light);
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  color: var(--brand-deep);
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 2rem 0;
+}
+
+/* Code */
+code {
+  font-family: 'Fira Code', monospace;
+  background: #F1F5F9;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-size: 0.9em;
+  color: #D946EF;
+}
+
+pre {
+  background: #0F172A;
+  padding: 1.5rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 2rem 0;
+}
+
+pre code {
+  color: #E2E8F0;
+  background: transparent;
+  padding: 0;
+}
+
+/* Table of Contents */
+.toc {
+  background: #F8FAFC;
+  border: 1px solid var(--line);
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  margin-bottom: 3rem;
+  max-width: 800px;
+}
+
+.toc h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.toc ol {
+  padding-left: 1.5rem;
+  margin: 0;
+}
+
+.toc li {
+  margin-bottom: 0.5rem;
+}
+
+.toc a {
+  color: var(--ink);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.toc a:hover {
+  color: var(--brand);
+  text-decoration: underline;
+}
+
+/* Horizontal Rule */
+hr {
+  border: 0;
+  height: 1px;
+  background: var(--line);
+  margin: 3rem 0;
+}
+
+/* Quick Answer Box styling improvement */
+.quick-answer {
+  background: #ECFDF5;
+  border: 1px solid #10B981;
+  color: #064E3B;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-top: 2rem;
+  font-size: 1.05rem;
+}
+
+/* Mobile Polish */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .guide-hero {
+    text-align: left;
+  }
+
+  .meta-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .quick-answer {
+    padding: 1rem;
+  }
+}

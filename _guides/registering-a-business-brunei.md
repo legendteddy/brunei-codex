@@ -13,7 +13,7 @@ sources:
   - https://www.business.gov.bn/
   - https://www.ocp.mofe.gov.bn/SitePages/Home.aspx
   - https://www.roc.gov.bn/
-  - https://www.dare.gov.bn/
+  - https://www.mofe.gov.bn/
   - https://www.hasil.gov.bn/
 ---
 # Registering a Business in Brunei - Complete Guide
@@ -138,7 +138,7 @@ A: Narrow options with explicit criteria, document tradeoffs, and keep written c
   Confidence: `official` or `institutional` depending on page ownership
 - https://www.roc.gov.bn/  
   Confidence: `official` or `institutional` depending on page ownership
-- https://www.dare.gov.bn/  
+- https://www.mofe.gov.bn/  
   Confidence: `official` or `institutional` depending on page ownership
 - https://www.hasil.gov.bn/  
   Confidence: `official` or `institutional` depending on page ownership
