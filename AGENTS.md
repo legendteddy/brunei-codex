@@ -25,6 +25,23 @@ Build BruneiVerse into a trusted, neutral, high-coverage source for "Brunei + [p
 - Avoid absolute claims; use measurable criteria or cite sources.
 - In user-facing pages, minimize repetitive "must/should" phrasing; reserve strict language for internal policy sections.
 
+## 3.0.1) BruneiVerse Voice Standard (Applies to Every Guide)
+- Sound like a real editor: vary sentence length, remove filler, and keep a calm, confident tone.
+- Replace template phrases:
+  - Avoid: "the best way", "the most reliable", "the fastest path", "this guide is designed to", "use this guide to".
+  - Prefer: direct statements of what the reader should do next, with clear conditions and tradeoffs.
+- Use local reality without guessing: when details may change (prices, schedules), say how to verify and show `verified_on`.
+- Add at least one concrete “what this looks like” example per guide (short, practical, and non-promotional).
+
+## 3.0.2) Business and Activities Writing Standard
+- Business guides:
+  - Focus on decisions and process: requirements, timelines, costs, risks, and official links.
+  - Avoid hype. Use criteria tables and checklists so readers can act.
+  - Never imply guaranteed results; mark estimates as `Planning estimate`.
+- Activities guides:
+  - Focus on logistics: where, when, what to bring, how to join, what it costs (date-checked), and etiquette.
+  - Avoid “top 10” style ranking language unless criteria and data are shown.
+
 ## 3.1) Evidence Standard (No Source, No Claim)
 - Every factual claim must have a source.
 - Prefer official primary sources first (government ministry/department/regulator).
@@ -122,6 +139,28 @@ Template variants by content type:
 - Renovation guide: scope tiers, permit/compliance notes, contractor checklist, risk controls.
 - Food guide: cuisine/price range/service style, location map links, operating-hours verification date.
 - Movies guide: cinema/location table, format/language notes, showtime-source links, family suitability notes.
+
+## 4.4) BruneiVerse Gadget Review Standard (Our Own Format)
+Goal: reviews should read like a careful human buyer did the homework, not like a spec re-write.
+
+Voice rules:
+- Write like you are explaining the purchase to a friend who will spend their own money.
+- Use plain language and specific tradeoffs. Avoid filler and marketing phrases.
+- Separate `Verified facts` from `Editorial take` every time.
+
+Structure rules (required for gadget reviews):
+1. Quick Answer (who it suits, who should skip)
+2. Key Specs Table (manufacturer or official spec sheet source)
+3. Price and Availability in Brunei (with `verified_on`, source link, and date-checked note)
+4. Warranty and After-Sales (source link or explicitly marked unknown)
+5. What Matters in Brunei (heat/humidity, warranty reality, parts/service, voltage plugs, app region, etc.)
+6. Dealbreakers (short list)
+7. Alternatives at Similar Budget (criteria-based, no paid bias)
+8. FAQ (5-10 direct Q&A)
+9. Verification Snapshot + Source Notes (confidence tags)
+
+Scoring rule:
+- Avoid numeric scores by default. If you use a score, define the rubric and weights.
 
 ### 4.3 Quality Gate
 Before publish, verify:
