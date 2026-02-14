@@ -98,7 +98,7 @@ Example: a small team can avoid overtime spikes by locking leave approvals in tw
 
 - Use one canonical internal calendar owner per team.
 - Never use social reposts as primary confirmation for public-holiday execution.
-- Keep adjacent guides linked for practical planning: [Ramadan in Brunei]({{ '/guides/ramadan-guide-brunei/' | relative_url }}), [Hari Raya Guide in Brunei]({{ '/guides/hari-raya-guide-brunei/' | relative_url }}), [Getting Around Brunei]({{ '/guides/getting-around-brunei-transport/' | relative_url }}), [Cost of Living in Brunei]({{ '/guides/cost-of-living-brunei/' | relative_url }}), and .
+- Keep adjacent guides linked for practical planning: [Ramadan in Brunei]({{ '/guides/ramadan-guide-brunei/' | relative_url }}), [Hari Raya Guide in Brunei]({{ '/guides/hari-raya-guide-brunei/' | relative_url }}), [Getting Around Brunei]({{ '/guides/getting-around-brunei-transport/' | relative_url }}), [Cost of Living in Brunei]({{ '/guides/cost-of-living-brunei/' | relative_url }}).
 - If you manage external partners, send confirmation notices with source links attached.
 
 ## Common Questions (FAQ)
@@ -183,6 +183,7 @@ A consistent checklist is often the difference between a smooth week and a react
 
 ---
 *Last updated: 2026-02-14 | Draft status: needs rolling date refresh before verification.*
+
 
 
 

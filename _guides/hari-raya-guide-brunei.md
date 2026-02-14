@@ -105,7 +105,9 @@ What this looks like: a medium-size hosting plan can stay controlled if menu com
 - For newcomers, ask hosts directly about dress and timing expectations to avoid uncertainty.
 - Link your Raya week plan to [Public Holiday Calendar in Brunei]({{ '/guides/public-holiday-calendar-brunei/' | relative_url }}), [Ramadan in Brunei]({{ '/guides/ramadan-guide-brunei/' | relative_url }}), [Cost of Living in Brunei]({{ '/guides/cost-of-living-brunei/' | relative_url }}), [Getting Around Brunei]({{ '/guides/getting-around-brunei-transport/' | relative_url }}), and [Healthcare in Brunei]({{ '/guides/healthcare-in-brunei/' | relative_url }}).
 
-`r`nEditorial guidance: if multiple households are coordinating, appoint one final confirmation owner for each day. A single owner reduces contradictory updates and helps everyone follow the same verified schedule and route plan.`r`n## Common Questions (FAQ)
+Editorial guidance: if multiple households are coordinating, appoint one final confirmation owner for each day. A single owner reduces contradictory updates and helps everyone follow the same verified schedule and route plan.
+
+## Common Questions (FAQ)
 
 **Q: Should I finalize all Raya appointments early?**  
 A: Finalize core appointments after official date confidence is clear; keep a flexible shortlist before that.
@@ -189,5 +191,6 @@ Even a short checklist can reduce most last-minute stress points.
 
 ---
 *Last updated: 2026-02-14 | Draft status: needs event-window refresh before verification.*
+
 
 

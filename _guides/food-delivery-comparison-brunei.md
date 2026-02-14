@@ -8,7 +8,7 @@ content_state: draft
 category: food
 tags: [food delivery, brunei, app comparison, delivery fees]
 meta_description: "Everything you need to know about food delivery in Brunei. Updated 2026. Platform comparison, fee logic, ordering workflow, and risk controls."
-quick_answer: "Food delivery in Brunei is easiest when you pick one primary app and one backup app, then compare final checkout totals instead of menu prices alone. Platform availability can differ by district and time window, so treat each order as a live quote and verify service coverage before paying. Use this guide to compare options by cost control, reliability, and practical order flow."
+quick_answer: "Food delivery in Brunei is easiest when you pick one primary app and one backup app, then compare final checkout totals instead of menu prices alone. Platform availability can differ by district and time window, so treat each order as a live quote and verify service coverage before paying. Compare options by cost control, reliability, and practical order flow."
 sources:
   - https://www.gomamam.com/
   - https://apps.apple.com/bn/app/gomamam/id1516360310
@@ -180,4 +180,5 @@ A: Use the official consumer complaint channel guidance provided by DEPS/CPFTA [
 
 ---
 *Last updated: 2026-02-14 | Draft status: requires 7-day refresh for availability/fee checks.*
+
 
