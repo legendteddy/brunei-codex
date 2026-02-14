@@ -44,6 +44,14 @@ Build BruneiVerse into a trusted, neutral, high-coverage source for "Brunei + [p
   4. Update `verified_on` and `last_updated` after verification.
 - If latest information cannot be confirmed from a source, remove or defer the claim.
 
+## 3.4) Obsolete Information Removal (Automatic)
+- Agents must automatically detect obsolete information during every update pass.
+- If a claim is outdated, agents must either:
+  1. Replace it with verified latest information, or
+  2. Remove it if no current source can confirm it.
+- Do not keep historical values without explicit date context.
+- Obsolete schedule/price/process text must never remain in "current" sections.
+
 ## 4) Required Guide Contract
 
 ### 4.1 Front Matter
@@ -103,6 +111,7 @@ Before publish, verify:
 - 1000-2000 words (target range)
 - Every factual claim has an inline citation or explicit source mapping
 - All time-sensitive claims are re-checked against the latest source before publish
+- Obsolete claims have been replaced or removed
 
 ## 5) Safety and Red Lines
 
@@ -205,12 +214,14 @@ Freshness requirement:
 5. Re-verify activity schedules and renovation process references on time-sensitive pages.
 6. Re-verify event dates, times, venues, and organizer links on event pages.
 7. Re-verify gadget prices/availability and note date-checked context.
+8. Remove or rewrite obsolete claims discovered during re-verification.
 
 ### Monthly (1-2 hours)
 1. Review coverage and freshness.
 2. Update outdated prices/processes/regulations.
 3. Prioritize next topic cluster.
 4. Refresh seasonal topics when relevant.
+5. Run an obsolete-content sweep and clean stale claims site-wide.
 
 ## 9) Agent Output Format (Daily Recommendation)
 
