@@ -4,134 +4,52 @@ title: "All Guides"
 permalink: /guides/
 ---
 
-<div class="guides-container">
-    <div class="guides-header">
-        <h1>Complete Guide Library</h1>
-        <p class="subtitle">Self-evolving, AI-verified guides for life in Brunei. Source-linked, date-checked,
-            continuously updated.</p>
+{% assign all_guides = site.guides | sort: "title" %}
+{% assign verified_guides = site.guides | where: "content_state", "verified" %}
+{% assign grouped_guides = site.guides | group_by: "category" | sort: "name" %}
+
+<section class="shell guides-page">
+  <header class="guides-hero">
+    <p class="eyebrow">Knowledge Library</p>
+    <h1>All Brunei Guides</h1>
+    <p>Browse by category, jump to verified entries, and use this page as your main index for practical Brunei workflows.</p>
+    <div class="guides-stats">
+      <span>{{ all_guides.size }} total</span>
+      <span>{{ verified_guides.size }} verified</span>
+      <span>{{ grouped_guides.size }} categories</span>
+    </div>
+  </header>
+
+  <nav class="guides-jump" aria-label="Guide categories">
+    {% for group in grouped_guides %}
+    <a href="#{{ group.name | slugify }}">{{ group.name | replace: '-', ' ' | capitalize }} ({{ group.items.size }})</a>
+    {% endfor %}
+  </nav>
+
+  {% for group in grouped_guides %}
+  <section class="guides-section" id="{{ group.name | slugify }}">
+    <div class="guides-section-head">
+      <h2>{{ group.name | replace: '-', ' ' | capitalize }}</h2>
+      <span>{{ group.items.size }} guides</span>
     </div>
 
     <div class="guides-grid">
-        {% assign grouped_guides = site.guides | group_by: "category" | sort: "name" %}
-
-        {% for group in grouped_guides %}
-        <div class="category-block">
-            <h2 class="category-title" id="{{ group.name | slugify }}">{{ group.name | capitalize | replace: '-', ' ' }}
-            </h2>
-            <div class="category-guides">
-                {% for guide in group.items %}
-                <a href="{{ guide.url | relative_url }}" class="guide-card">
-                    <span class="guide-state state-{{ guide.content_state }}">{{ guide.content_state }}</span>
-                    <h3>{{ guide.title | replace: ' - Complete Guide 2026', '' }}</h3>
-                    <p>{{ guide.meta_description | truncate: 120 }}</p>
-                    <div class="guide-meta">
-                        <span class="verified-date">Verified: {{ guide.verified_on | date: "%b %Y" }}</span>
-                    </div>
-                </a>
-                {% endfor %}
-            </div>
-        </div>
-        {% endfor %}
+      {% assign group_sorted = group.items | sort: "title" %}
+      {% for guide in group_sorted %}
+      <article class="guide-card guide-card--{{ guide.content_state }}">
+        <a class="guide-card-link" href="{{ guide.url | relative_url }}">
+          <div class="guide-card-top">
+            <span class="guide-chip guide-chip--{{ guide.content_state }}">{{ guide.content_state }}</span>
+            {% if guide.verified_on %}
+            <span class="guide-date">Verified {{ guide.verified_on | date: "%Y-%m-%d" }}</span>
+            {% endif %}
+          </div>
+          <h3>{{ guide.title | replace: ' - Complete Guide 2026', '' }}</h3>
+          <p>{{ guide.meta_description | default: guide.quick_answer | truncate: 140 }}</p>
+        </a>
+      </article>
+      {% endfor %}
     </div>
-</div>
-
-<style>
-    .guides-container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 4rem 2rem;
-    }
-
-    .guides-header {
-        text-align: center;
-        margin-bottom: 4rem;
-    }
-
-    .guides-header h1 {
-        font-size: 3rem;
-        font-weight: 800;
-        margin-bottom: 1rem;
-        background: linear-gradient(135deg, #FFF 0%, #AAA 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-
-    .category-block {
-        margin-bottom: 4rem;
-    }
-
-    .category-title {
-        font-size: 1.8rem;
-        margin-bottom: 2rem;
-        padding-bottom: 1rem;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-        color: #bdc3c7;
-    }
-
-    .category-guides {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        gap: 1.5rem;
-    }
-
-    .guide-card {
-        background: rgba(255, 255, 255, 0.03);
-        border: 1px solid rgba(255, 255, 255, 0.05);
-        border-radius: 12px;
-        padding: 1.5rem;
-        color: inherit;
-        text-decoration: none;
-        transition: all 0.2s ease;
-        position: relative;
-        overflow: hidden;
-    }
-
-    .guide-card:hover {
-        transform: translateY(-2px);
-        background: rgba(255, 255, 255, 0.06);
-        border-color: rgba(255, 255, 255, 0.1);
-    }
-
-    .guide-state {
-        position: absolute;
-        top: 1rem;
-        right: 1rem;
-        font-size: 0.7rem;
-        text-transform: uppercase;
-        padding: 0.2rem 0.5rem;
-        border-radius: 4px;
-        font-weight: 600;
-        background: rgba(255, 255, 255, 0.1);
-    }
-
-    .state-verified {
-        background: rgba(46, 204, 113, 0.2);
-        color: #2ecc71;
-    }
-
-    .state-draft {
-        background: rgba(241, 196, 15, 0.2);
-        color: #f1c40f;
-    }
-
-    .guide-card h3 {
-        margin: 1.5rem 0 0.5rem 0;
-        /* Space for the state badge */
-        font-size: 1.2rem;
-        line-height: 1.4;
-    }
-
-    .guide-card p {
-        font-size: 0.9rem;
-        color: #bdc3c7;
-        margin-bottom: 1rem;
-        line-height: 1.5;
-    }
-
-    .guide-meta {
-        font-size: 0.8rem;
-        color: #7f8c8d;
-        display: flex;
-        align-items: center;
-    }
-</style>
+  </section>
+  {% endfor %}
+</section>
