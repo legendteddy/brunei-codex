@@ -9,7 +9,7 @@
 - Business model: Ad-supported now, transparent sponsored listings later
 
 ## 2) Core Outcome
-Build BruneiVerse into a trusted, neutral, high-coverage source for "Brunei + [practical query]" across living, working, business, education, health, culture, activities/community, events, home services, and gadget review topics.
+Build BruneiVerse into a trusted, neutral, high-coverage source for "Brunei + [practical query]" across living, working, business, education, health, culture, activities/community, events, food/dining, movies/entertainment, home services, and gadget review topics.
 
 ## 3) Editorial Principles
 - Prioritize practical, factual, action-oriented guidance.
@@ -52,6 +52,11 @@ Build BruneiVerse into a trusted, neutral, high-coverage source for "Brunei + [p
 - Do not keep historical values without explicit date context.
 - Obsolete schedule/price/process text must never remain in "current" sections.
 
+## 3.5) Source Retention and Verification Log
+- For each guide update, keep a verification log of source URLs, source updated date (if shown), and verification date.
+- Archive critical source snapshots (URL + date + key claim mapped) for auditability.
+- If a source changes materially, re-verify affected claims immediately.
+
 ## 4) Required Guide Contract
 
 ### 4.1 Front Matter
@@ -71,6 +76,9 @@ sources:
   - https://official-source.example
 ---
 ```
+
+Optional but recommended:
+- `disclosure`: plain statement for sponsorship/affiliate context when applicable.
 
 ### 4.2 Body Structure
 Required sections:
@@ -122,6 +130,38 @@ Before publish, verify:
 - No misleading framing: avoid deceptive wording, cherry-picked facts, or ambiguous claims presented as certain.
 - If an error is discovered, correct or remove it immediately and update `last_updated` + `verified_on`.
 
+## 5.2) Corrections and Retractions Policy
+- Corrections SLA: patch confirmed factual errors within 24-72 hours.
+- If a claim cannot be safely corrected, retract/remove it until verified.
+- Add a short change note in the guide (`what changed` with date) for substantial corrections.
+
+## 5.3) Copyright, IP, and Takedown Handling
+- No unauthorized reuse of text, images, videos, logos, or proprietary assets.
+- Maintain attribution/license evidence for reusable assets.
+- Takedown workflow:
+  1. Receive request with URL + ownership evidence.
+  2. Temporarily unpublish disputed content if risk is high.
+  3. Resolve within 72 hours with removal, replacement, or documented rejection.
+
+## 5.4) Sponsored and Affiliate Disclosure
+- Sponsored or affiliate content must be clearly labeled near the top of the page.
+- Disclosures must be plain-language and unambiguous.
+- Rankings/recommendations must not be secretly influenced by payment.
+
+## 5.5) Legal/Professional Advice Boundary
+- Content is informational and practical only; it is not legal, medical, or financial advice.
+- For regulated decisions, link to official source pages and advise readers to confirm current official rules.
+
+## 5.6) Reviews Methodology and Conflict-of-Interest
+- Review guides must include criteria and scoring dimensions (for example price, warranty, availability, reliability).
+- Distinguish objective facts from subjective opinion.
+- Any partnership, sponsorship, loaner device, or affiliate relationship must be declared.
+
+## 5.7) UGC Moderation Policy (If comments/reviews enabled later)
+- Remove defamatory, misleading, unlawful, or privacy-violating submissions.
+- Do not publish unverified allegations about persons or businesses.
+- Keep moderation logs for removed/edited submissions.
+
 ### Never publish
 - Political opinion or commentary
 - Religious debate or doctrinal argument
@@ -154,6 +194,8 @@ Before publish, verify:
 - Mobile/internet setup, groceries, schools
 - Daily activities and community participation (for example chess clubs, sports groups, hobby communities)
 - Brunei events coverage (weekend events, seasonal events, community fairs, festivals)
+- Food and dining coverage (restaurants, cafes, local specialties, budget dining guides)
+- Movies and entertainment coverage (cinemas, screenings, family-friendly options, release guides)
 - Gadget reviews and buyer guides (phones, laptops, accessories, smart home devices in Brunei)
 
 ### Secondary (authority depth)
@@ -172,6 +214,15 @@ Before publish, verify:
   - Family-friendly events calendar
   - Seasonal and holiday event guides
   - Event venue guide by district
+- Food and dining:
+  - Best local food spots in Brunei
+  - Budget dining guide by district
+  - Halal-friendly dining and practical dining etiquette guide
+  - Cafe and dessert guide
+- Movies and entertainment:
+  - Cinema guide in Brunei (locations, formats, ticketing basics)
+  - Weekly movie releases and showtime resource guide
+  - Family-friendly movie activities and rainy-day entertainment guide
 - Home and renovation:
   - House renovation in Brunei (start-to-finish guide)
   - Renovation cost planning by scope
@@ -227,6 +278,14 @@ Freshness requirement:
   6. Truthfulness and defamation check (no misleading or defamatory language)
 - If audit fails, agent must fix issues immediately before publishing.
 
+## 8.2) Automated Compliance Gate (CI Required)
+- CI must fail if required compliance fields/checks are missing:
+  - `last_updated`
+  - `verified_on`
+  - source mapping for factual claims
+  - disclosure field when sponsored/affiliate content is present
+  - no unresolved audit findings
+
 ### Daily (15-30 min)
 1. Check practical high-intent query opportunities.
 2. Identify content gaps in current coverage.
@@ -256,6 +315,7 @@ Freshness requirement:
 9. Run SEO improvement sweep on top-priority guides (titles/meta/internal links/FAQ clarity).
 10. Run full-site audit and produce a findings list with fixes.
 11. Run misinformation/defamation sweep and remediate findings.
+12. Run visual QA/glitch sweep (layout breakage, overflow, clipping, contrast issues on desktop/mobile).
 
 ### Monthly (1-2 hours)
 1. Review coverage and freshness.
@@ -309,6 +369,8 @@ Use this exact format:
 - Observable citation signals and organic visibility growth
 - Source coverage ratio: 100% of factual claims source-mapped
 - Accuracy/freshness SLA: 0 unresolved known factual errors, 100% time-sensitive claims verified within policy window
+- Corrections SLA adherence: 100% of confirmed errors corrected/retracted within 72 hours
+- Compliance pass rate: 100% CI compliance gate pass on main
 
 ## 12) Current Status Checklist
 - [x] Repository exists (`legendteddy/bruneiverse`)
