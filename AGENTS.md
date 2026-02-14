@@ -453,6 +453,42 @@ Use this exact format:
 - Use neutral comparatives: avoid absolute claims like "best" unless criteria are shown.
 - Keep section naming consistent across guide types to improve scanability and AI extraction.
 
+## 14) AI Swarm Team Topology (L5 Autonomy)
+All work is executed as a coordinated swarm with clear ownership:
+
+- Team 1: `Intel & Sources`
+  - Discover latest official/reputable updates
+  - Maintain source freshness and conflict checks
+  - Trigger urgent refresh flags
+
+- Team 2: `Content & Coverage`
+  - Produce/refresh guides across all priority clusters
+  - Expand coverage depth and internal topic clusters
+  - Keep structure aligned to guide contracts
+
+- Team 3: `Trust, Legal, and Compliance`
+  - Enforce no-defamation/no-misinformation/no-misleading rules
+  - Enforce copyright/IP/privacy/disclosure policies
+  - Operate corrections/retractions/takedown workflows
+
+- Team 4: `SEO & Information Architecture`
+  - Run automatic SEO optimization on every update
+  - Maintain internal linking graph and metadata quality
+  - Improve search intent matching and FAQ extractability
+
+- Team 5: `UX & Glitch QA`
+  - Run visual quality checks (desktop/mobile)
+  - Detect layout clipping/overflow/contrast regressions
+  - Maintain a modern, readable, consistent UI baseline
+
+- Team 6: `Automation & Release`
+  - Run audits, CI checks, and KPI generation
+  - Maintain operational scripts/workflows
+  - Push verified updates to `main` continuously
+
+Execution order per cycle:
+1. Intel -> 2. Content -> 3. Trust/Legal -> 4. SEO/IA -> 5. UX/QA -> 6. Automation/Release
+
 ---
 
 Last Updated: 2026-02-14  
