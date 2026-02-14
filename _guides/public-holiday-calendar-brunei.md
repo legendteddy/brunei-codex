@@ -162,7 +162,6 @@ A consistent checklist is often the difference between a smooth week and a react
 
 - [Ramadan in Brunei]({{ '/guides/ramadan-guide-brunei/' | relative_url }})
 - [Hari Raya Guide in Brunei]({{ '/guides/hari-raya-guide-brunei/' | relative_url }})
-- 
 - [Getting Around Brunei]({{ '/guides/getting-around-brunei-transport/' | relative_url }})
 - [Cost of Living in Brunei]({{ '/guides/cost-of-living-brunei/' | relative_url }})
 

@@ -1,5 +1,5 @@
 title: BruneiCodex
-description: Practical, neutral guides for living, working, and settling in Brunei.
+description: Self-evolving, AI-verified guides for life in Brunei — source-linked, date-checked, continuously updated.
 url: "https://legendteddy.github.io"
 baseurl: "/brunei-codex"
 timezone: Asia/Brunei
@@ -41,4 +41,6 @@ exclude:
   - reports/
   - scripts/
   - .github/
+  - VISION.md
+  - CODEX_INSTRUCTIONS.md
 

@@ -1,15 +1,19 @@
 <!doctype html>
 <html lang="{{ site.lang | default: 'en' }}">
-  <head>
-    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-    {% include head.html %}
-    {% include jsonld_article.html %}
-  </head>
-  <body>
-    {% include nav.html %}
-    <main>
-      {{ content }}
-    </main>
-    {% include footer.html %}
-  </body>
+
+<head>
+  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  {% include head.html %}
+  {% include jsonld_article.html %}
+</head>
+
+<body>
+  {% include nav.html %}
+  <main>
+    {{ content }}
+  </main>
+  {% include footer.html %}
+  <script src="{{ '/assets/js/ui.js' | relative_url }}"></script>
+</body>
+
 </html>

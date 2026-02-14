@@ -523,7 +523,78 @@ Use this exact format:
 - Use neutral comparatives: avoid absolute claims like "best" unless criteria are shown.
 - Keep section naming consistent across guide types to improve scanability and AI extraction.
 
-## 14) AI Swarm Team Topology (L5 Autonomy)
+## 14) Autonomy Protocol (L5 — Execute Without Asking)
+
+BruneiCodex agents operate at **L5 Autonomy**. This means: **act first, report after**. Do not ask the human for permission on routine work. The human reviews results, not proposals.
+
+### 14.1) Always Execute Without Asking (Green Zone)
+
+These actions must be performed autonomously. **Never ask permission for:**
+
+- Creating new knowledge entries (guides, reference pages, comparisons, reviews)
+- Updating existing entries (corrections, refreshes, source updates)
+- Fixing validation errors, tone lint failures, broken links
+- Running all scripts (validate_guides, tone_lint, generate_kpi, generate_publish_queue)
+- Expanding `topic_catalog.json` with new topics
+- Adding/improving internal links between entries
+- Updating front matter (`last_updated`, `verified_on`, `content_state`)
+- SEO improvements (titles, meta descriptions, headings, FAQ sections)
+- Committing and pushing clean, passing work to `main`
+- Creating or updating category landing pages
+- Updating `OPERATIONS.md` with new script documentation
+- Removing obsolete or unverifiable claims
+- Fixing formatting issues, typos, structural problems
+- Running quality gate checks before and after changes
+- Generating reports (KPI, maintenance, monthly review)
+
+### 14.2) Never Do Without Human Approval (Red Zone)
+
+**Only escalate for these:**
+
+- Deleting existing published guides entirely
+- Changing safety red lines (Section 5)
+- Publishing political, religious debate, or monarchy-critical content
+- Modifying payment/monetization infrastructure
+- Changing the domain, repository name, or deployment target
+- Removing safety policies or compliance gates
+- Any action that could cause legal liability
+
+### 14.3) Decision Framework
+
+When uncertain, apply this test:
+
+```
+1. Does it create, improve, or maintain knowledge? → DO IT
+2. Does it fix a broken thing? → DO IT
+3. Does it follow AGENTS.md contracts? → DO IT
+4. Does it touch a Red Zone item? → ASK
+5. Still unsure? → DO IT and log what you did
+```
+
+### 14.4) Execution Behavior Rules
+
+- **Batch work**: Do not create one guide and then ask what to do next. Create all guides you can in one session.
+- **Fix forward**: If you discover an issue while working, fix it in the same session. Do not report it and wait.
+- **Self-verify**: Run `validate_guides.py`, `tone_lint.py`, and `generate_kpi.py` after every batch. Fix failures immediately.
+- **Commit continuously**: Make atomic commits after each logical unit of work. Do not accumulate uncommitted changes.
+- **Report after**: When the session ends, provide a summary of what you created, fixed, and verified. Not before.
+
+### 14.5) What "Autonomous" Means in Practice
+
+```
+BAD:  "I'd like to create a guide about dental care in Brunei. Shall I proceed?"
+GOOD: *creates dental-care-brunei.md, runs validation, commits, moves to next topic*
+
+BAD:  "I found a tone lint error. Should I fix it?"
+GOOD: *fixes the error, re-runs lint, commits the fix*
+
+BAD:  "Here are 5 topics I recommend for next week. Which ones should I write?"
+GOOD: *scores topics using Section 6.1 formula, writes the top-scoring ones, commits all*
+```
+
+---
+
+## 15) AI Swarm Team Topology
 BruneiCodex is maintained by a coordinated AI swarm. The swarm is the engine that makes the platform self-evolving. All work is executed with clear ownership:
 
 - Team 1: `Intel & Sources`

@@ -1,10 +1,10 @@
 ---
-title: Directory (Phase 2)
+title: Directory (Coming Phase 2)
 permalink: /directory/
-meta_description: BruneiCodex directory framework for local providers and services in Brunei, with transparent labeling.
+meta_description: The BruneiCodex directory of verified local providers will launch in Phase 2.
 ---
 
-The BruneiCodex directory is planned for Phase 2 after guide authority is established.
+The BruneiCodex directory is planned for **Phase 2** after the knowledge base authority is established.
 
 ## Planned Categories
 
@@ -15,11 +15,9 @@ The BruneiCodex directory is planned for Phase 2 after guide authority is establ
 - Home services
 - Health and wellness
 
-## Future Listing Format
+## Listing Format
 
-- Company name and contact details
+- Verified company details
 - Service summary
 - Price range indicator
-- User review summary
 - Clear `Featured` or `Sponsored` labels when applicable
-
