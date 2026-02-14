@@ -68,7 +68,9 @@ title: "[Topic] in Brunei - Complete Guide [YEAR]"
 date: YYYY-MM-DD
 last_updated: YYYY-MM-DD
 verified_on: YYYY-MM-DD
-category: [living/working/business/education/health/culture]
+owner: [editor_or_agent_id]
+content_state: [draft/verified/stale-risk/needs-refresh/archived]
+category: [living/working/business/education/health/culture/activities/events/food/movies/home-services/gadgets]
 tags: [tag1, tag2, tag3]
 meta_description: "Everything you need to know about [topic] in Brunei. Updated [YEAR]. Costs, process, tips, and recommendations."
 quick_answer: "2-3 sentence direct answer."
@@ -90,12 +92,14 @@ Required sections:
 - Costs and pricing
 - Tips and recommendations
 - FAQ (5-10 Q&A items)
+- Verification Snapshot (verified date + source confidence summary + reviewer)
 - Related resources
 - Last updated footer line
 
 Citation rule inside body:
 - Add inline citations in relevant sentences, for example: `... [Source: MOH Contact Page]`
 - Keep a `Source Notes` subsection that maps key claims to source links.
+- Tag each source note with confidence level: `official`, `institutional`, or `secondary`.
 
 Guide archetypes to support broader scope:
 - Process guides (for example permits, setup, registration)
@@ -104,6 +108,13 @@ Guide archetypes to support broader scope:
 - Event guides (for example what to do this weekend in Brunei)
 - Home-service guides (for example house renovation planning in Brunei)
 - Review guides (for example gadgets, devices, and buyer comparisons in Brunei)
+
+Template variants by content type:
+- Event guide: date/time/venue table, ticketing info, organizer source link, `verified_on` <= 7 days.
+- Review guide: scoring criteria table, fact vs opinion split, disclosure block, price-checked date.
+- Renovation guide: scope tiers, permit/compliance notes, contractor checklist, risk controls.
+- Food guide: cuisine/price range/service style, location map links, operating-hours verification date.
+- Movies guide: cinema/location table, format/language notes, showtime-source links, family suitability notes.
 
 ### 4.3 Quality Gate
 Before publish, verify:
@@ -162,6 +173,16 @@ Before publish, verify:
 - Do not publish unverified allegations about persons or businesses.
 - Keep moderation logs for removed/edited submissions.
 
+## 5.8) Emergency Rollback Rule
+- If a high-impact error is discovered (legal risk, safety risk, false factual claim), immediately unpublish or rollback the affected section.
+- Publish a temporary correction note while full verification is completed.
+- Resolve rollback cases within 24 hours when possible.
+
+## 5.9) Image and Media Compliance
+- Only use media with clear usage rights (owned, licensed, or permission granted).
+- Keep attribution/license details in a media log.
+- Remove any disputed media immediately until rights are verified.
+
 ### Never publish
 - Political opinion or commentary
 - Religious debate or doctrinal argument
@@ -181,6 +202,21 @@ Before publish, verify:
 - Only use text/media with proper rights, permission, or clear license compliance.
 
 ## 6) Topic Priorities
+
+## 6.1) Prioritization Score Model (Use Every Planning Cycle)
+Score candidate topics with:
+- Intent score (0-5)
+- Coverage gap score (0-5)
+- Freshness risk score (0-5)
+- Citation potential score (0-5)
+- Audience relevance score (0-5)
+
+Priority score formula:
+`(Intent * 0.30) + (Coverage Gap * 0.25) + (Freshness Risk * 0.20) + (Citation Potential * 0.15) + (Audience Relevance * 0.10)`
+
+Rules:
+- Publish highest scores first.
+- If two topics tie, prioritize higher freshness risk.
 
 ### Priority (high intent)
 - Housing, rent, neighborhoods
@@ -282,9 +318,38 @@ Freshness requirement:
 - CI must fail if required compliance fields/checks are missing:
   - `last_updated`
   - `verified_on`
+  - `owner`
+  - `content_state`
   - source mapping for factual claims
   - disclosure field when sponsored/affiliate content is present
   - no unresolved audit findings
+
+## 8.3) Content Lifecycle States
+- `draft`: in production, not publish-ready.
+- `verified`: publish-ready, fully sourced, passes all gates.
+- `stale-risk`: still live but approaching verification timeout.
+- `needs-refresh`: verification expired or material change detected.
+- `archived`: intentionally retained for historical context; clearly labeled not-current.
+
+State transition rules:
+- `draft -> verified`: all quality, legal, SEO, and freshness checks pass.
+- `verified -> stale-risk`: time-sensitive verification window nearing expiry.
+- `stale-risk -> needs-refresh`: verification window exceeded or source changed.
+- `needs-refresh -> verified`: re-verified and corrected.
+- Any state -> `archived`: content no longer current but retained with date context.
+
+## 8.4) KPI Dashboard File (Machine-Readable)
+- Update `reports/kpi.json` weekly with:
+  - total_guides
+  - verified_guides
+  - stale_risk_guides
+  - needs_refresh_guides
+  - source_coverage_ratio
+  - internal_link_health
+  - compliance_pass_rate
+  - corrections_sla_adherence
+  - last_generated_at
+- Agents must use this file to prioritize refresh and remediation work.
 
 ### Daily (15-30 min)
 1. Check practical high-intent query opportunities.
@@ -380,6 +445,13 @@ Use this exact format:
 - [x] Internal linking established in pillar set
 - [ ] Search Console and Bing Webmaster submitted
 - [ ] Optional custom domain configured
+
+## 13) Naming and Style Glossary
+- Use consistent district/place naming across all guides.
+- Use one format for prices: `BND X` (or `BND X-Y` ranges).
+- Use one format for dates: `YYYY-MM-DD` in metadata; human-readable dates in body.
+- Use neutral comparatives: avoid absolute claims like "best" unless criteria are shown.
+- Keep section naming consistent across guide types to improve scanability and AI extraction.
 
 ---
 
