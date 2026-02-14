@@ -33,7 +33,7 @@ faq:
     answer: "Compare quotes by detailed specifications and scope, not by total price only."
   - question: "Do I need to check permits for renovation work?"
     answer: "For significant works, verify permit and compliance requirements before starting."
-  - question: "What is the best way to reduce renovation disputes?"
+  - question: "How can I reduce renovation disputes?"
     answer: "Use written scope, material schedule, timeline milestones, payment stages, and documented variation rules."
   - question: "How long can premium cabinet projects take?"
     answer: "Timeline depends on scope and vendor pipeline; verify production and installation milestones in writing before deposit."
@@ -53,7 +53,7 @@ Editorial guidance: these are common buyer motivations for premium cabinetry pro
 
 If you feel stuck between a few options, it is usually because the quotes are not comparable yet. Many cabinet projects go sideways at the quote stage because buyers compare total price only, while the real differences are hidden in the specification: board system, edging, hardware class, installation tolerance, and after-sales process.
 
-This guide is practical, non-promotional, and structured for decisions you can make this week.
+This guide keeps things practical and non-promotional, with a checklist you can use immediately.
 
 For overall renovation cash-flow planning, start with [Cost of Living in Brunei]({{ '/guides/cost-of-living-brunei/' | relative_url }}).  
 If your home choice is still open, pair this with [Finding Housing in Brunei]({{ '/guides/finding-housing-brunei/' | relative_url }}).  

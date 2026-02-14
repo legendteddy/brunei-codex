@@ -35,7 +35,7 @@ faq:
 
 # Finding Housing in Brunei - Complete Guide
 
-**Quick Answer:** The most reliable housing strategy in Brunei is to define your maximum all-in monthly housing cost first, then compare homes using a standard inspection checklist and commute test. You should verify lease terms in writing, confirm who handles maintenance, and calculate deposit plus setup costs before signing. Most costly mistakes happen when renters decide based only on location or rent headline price.
+**Quick Answer:** A good housing search in Brunei starts with a clear monthly cap (rent plus likely utilities), then a simple viewing checklist you use for every unit. Verify lease terms in writing, confirm who handles maintenance, and calculate deposits and setup costs before you commit. Most problems come from rushing the decision or comparing places only by rent headline.
 
 ## Overview
 
@@ -223,6 +223,13 @@ A: Keep signed lease copies, payment confirmations, inspection notes, and docume
 - [Banking in Brunei]({{ '/guides/banking-in-brunei/' | relative_url }})
 - [Getting Around Brunei]({{ '/guides/getting-around-brunei-transport/' | relative_url }})
 - [Healthcare in Brunei]({{ '/guides/healthcare-in-brunei/' | relative_url }})
+
+## Verification Snapshot
+
+- Verified on: 2026-02-14
+- Scope: rental search workflow, contract-risk checklist, and setup planning
+- Source confidence: general guidance + sources listed in front matter for institutional references
+- Note: lease clauses and market availability change; confirm terms in writing for each unit
 
 ---
 *Last updated: 2026-02-14 | Have suggestions? Contact us.*

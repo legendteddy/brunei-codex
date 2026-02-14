@@ -43,7 +43,7 @@ Cost of living in Brunei is best understood as a combination of stable baseline 
 
 For newcomers, the first mistake is copying a generic budget from another country and assuming it fits local realities. In Brunei, location, housing quality, and transport mode create the biggest cost differences. If you rent in a central area close to work and schools, you may save transport time and fuel but pay higher rent. If you rent farther out, rent may be lower, but daily mobility costs can increase.
 
-Use this guide to build a practical monthly budget before relocation and adjust it after your first one to three months on the ground.
+Use this as a starting budget, then adjust it after your first one to three months based on what you actually spend.
 
 ## Key Information
 
@@ -76,7 +76,7 @@ This method keeps essential costs visible before optional spending starts.
 
 ### 2. Build two scenarios, not one
 
-Create a “lean” plan and a “balanced” plan. Your lean plan is for months with larger one-off payments or travel. Your balanced plan includes a small comfort buffer for meals out, short trips, and unexpected fees.
+Create a "lean" plan and a "balanced" plan. Your lean plan is for months with larger one-off payments or travel. Your balanced plan includes a small comfort buffer for meals out, short trips, and unexpected fees.
 
 Planning only one scenario creates stress when bills fluctuate.
 
@@ -93,7 +93,7 @@ After three months:
 3. Move fixed cost ceilings if needed.
 4. Increase emergency buffer if volatility is high.
 
-This review is the fastest path to a stable, realistic budget.
+This review is a simple way to get to a stable, realistic budget.
 
 ## Costs and Pricing
 
@@ -180,6 +180,13 @@ A: Yes. Families should separately track schooling, healthcare, transport coordi
 - [Banking in Brunei]({{ '/guides/banking-in-brunei/' | relative_url }})
 - [Healthcare in Brunei]({{ '/guides/healthcare-in-brunei/' | relative_url }})
 - [Getting Around Brunei]({{ '/guides/getting-around-brunei-transport/' | relative_url }})
+
+## Verification Snapshot
+
+- Verified on: 2026-02-14
+- Scope: budgeting method and decision framework
+- Source confidence: official sources listed in front matter
+- Note: cost ranges are planning guidance; re-check quotes and bills locally before committing
 
 ---
 *Last updated: 2026-02-14 | Have suggestions? Contact us.*

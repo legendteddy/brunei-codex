@@ -29,7 +29,7 @@ faq:
     answer: "Families should set monthly preventive and contingency allocations, not only acute-care budgets."
   - question: "Can healthcare costs vary by provider type?"
     answer: "Yes. Cost, waiting time, and service scope can vary based on care setting and service type."
-  - question: "What is the best way to avoid delays?"
+  - question: "How can I avoid delays?"
     answer: "Prepare documentation and keep a ready-to-use health profile for each household member."
 ---
 
@@ -230,6 +230,13 @@ A: Yes. Reliable travel routes to care points can significantly reduce delays du
 - [Banking in Brunei]({{ '/guides/banking-in-brunei/' | relative_url }})
 - [Finding Housing in Brunei]({{ '/guides/finding-housing-brunei/' | relative_url }})
 - [Getting Around Brunei]({{ '/guides/getting-around-brunei-transport/' | relative_url }})
+
+## Verification Snapshot
+
+- Verified on: 2026-02-14
+- Scope: readiness workflow and household planning framework
+- Source confidence: official sources listed in front matter
+- Note: clinic processes and contact details can change; confirm latest through official channels before urgent needs
 
 ---
 *Last updated: 2026-02-14 | Have suggestions? Contact us.*

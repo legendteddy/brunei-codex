@@ -35,7 +35,7 @@ faq:
 
 # Getting Around Brunei - Complete Guide
 
-**Quick Answer:** The most reliable transport setup in Brunei is built around your actual weekly routes, then optimized by cost and backup options. Whether you drive or use mixed transport, include all recurring costs and keep a defined monthly mobility cap. Transport planning is strongest when linked directly to your housing choice and total monthly budget.
+**Quick Answer:** Transport decisions in Brunei get easier when you start from your real weekly routes (work, school, errands) and price them honestly. Whatever you use, budget for the full cost, not just fuel or fares, and keep a monthly mobility cap. Housing and transport are linked: a cheaper rent can become expensive if it adds daily travel time and cost.
 
 ## Overview
 
@@ -222,6 +222,13 @@ A: Yes. Reliable route and backup planning reduces late arrivals and urgent trav
 - [Finding Housing in Brunei]({{ '/guides/finding-housing-brunei/' | relative_url }})
 - [Banking in Brunei]({{ '/guides/banking-in-brunei/' | relative_url }})
 - [Healthcare in Brunei]({{ '/guides/healthcare-in-brunei/' | relative_url }})
+
+## Verification Snapshot
+
+- Verified on: 2026-02-14
+- Scope: budgeting approach and route-planning framework
+- Source confidence: official sources listed in front matter for licensing/transport institutions
+- Note: provider availability and pricing can change; re-check before committing to a long-term model
 
 ---
 *Last updated: 2026-02-14 | Have suggestions? Contact us.*

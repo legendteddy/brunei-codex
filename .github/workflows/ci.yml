@@ -22,6 +22,9 @@ jobs:
       - name: Validate guide content contract
         run: python scripts/validate_guides.py
 
+      - name: Tone lint (anti-template)
+        run: python scripts/tone_lint.py
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:

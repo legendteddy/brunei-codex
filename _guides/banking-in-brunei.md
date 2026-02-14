@@ -35,7 +35,7 @@ faq:
 
 # Banking in Brunei - Complete Guide
 
-**Quick Answer:** The best way to set up banking in Brunei is to decide account purpose first, prepare complete documentation, then activate digital access immediately after account approval. Newcomers should avoid overcomplicated setups and instead start with a clean two-account structure for spending and savings. Banking becomes much easier when your account structure matches rent, utilities, transport, and emergency planning from day one.
+**Quick Answer:** Banking setup in Brunei is smoother when you decide what the account is for first (salary, bills, savings), then bring a complete document pack and activate digital access early. Start simple: one day-to-day account and one savings buffer. Once your rent and bills are predictable, you can add extra structure if you actually need it.
 
 ## Overview
 
@@ -225,6 +225,13 @@ A: Yes. Dedicated monthly allocations for healthcare and insurance reduce unplan
 - [Finding Housing in Brunei]({{ '/guides/finding-housing-brunei/' | relative_url }})
 - [Healthcare in Brunei]({{ '/guides/healthcare-in-brunei/' | relative_url }})
 - [Getting Around Brunei]({{ '/guides/getting-around-brunei-transport/' | relative_url }})
+
+## Verification Snapshot
+
+- Verified on: 2026-02-14
+- Scope: account setup flow and budgeting structure (general)
+- Source confidence: institutional/official sources listed in front matter
+- Note: document requirements and fees can vary by bank and change over time; confirm latest at point of application
 
 ---
 *Last updated: 2026-02-14 | Have suggestions? Contact us.*
